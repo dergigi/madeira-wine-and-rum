@@ -81,7 +81,7 @@ public final class MainActivity extends Activity {
             shape(c, "#7C9680", 0,174, 79,75, 121,129, 165,96, 251,195);
             shape(c, "#345D54", 0,189, 66,142, 111,162, 170,120, 277,226, 0,264);
             shape(c, "#22483F", 0,215, 109,181, 202,220, 320,210, 320,310, 0,310);
-            p.setColor(Color.parseColor("#819775")); p.setStrokeWidth(2);
+            p.setColor(Color.parseColor("#819775")); p.setStrokeWidth(2); p.setStyle(Paint.Style.STROKE);
             for (int i=0;i<4;i++) { Path vine=new Path(); vine.moveTo(0,224+i*13); vine.quadTo(92,188+i*12,174,229+i*13); c.drawPath(vine,p); }
             c.restore();
             color("#D8CDB8"); c.drawOval(66,273,266,292,p);
