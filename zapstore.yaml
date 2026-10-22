@@ -1,7 +1,7 @@
 repository: https://github.com/dergigi/madeira-wine-and-rum
 pubkey: npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc
 release_notes: ./CHANGELOG.md
-name: Madeira, Wine, and Rum
+name: Madeira Wine and Rum
 summary: An island. A taste. A story.
 description: |
   A home for exploring Madeira's wine and rum.

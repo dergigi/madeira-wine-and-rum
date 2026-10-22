@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Madeira, Wine, and Rum</string>
-    <string name="island">MADEIRA</string>
-    <string name="title">Wine &amp; Rum</string>
+    <string name="app_name">Madeira Wine and Rum</string>
+    <string name="island">MADEIRA, PORTUGAL</string>
+    <string name="title">Madeira Wine\n&amp; Rum</string>
     <string name="subtitle">An island. A taste. A story.</string>
-    <string name="footer">32° N · 17° W
-MADEIRA, PORTUGAL</string>
+    <string name="footer">32° N · 17° W</string>
 </resources>

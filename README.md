@@ -1,6 +1,6 @@
-# Madeira, Wine, and Rum
+# Madeira Wine and Rum
 
-A native Android app for exploring Madeira's wine and rum. Version 0.1.0 is a splash-screen-only foundation; discovery features will follow.
+A native Android app for exploring Madeira's wine and rum. Version 0.1.1 is a splash-screen-only foundation; discovery features will follow.
 
 ## Development
 
@@ -60,7 +60,7 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.1.0 remains on the welcome screen. It requests no permissions, includes
+Version 0.1.1 remains on the welcome screen. It requests no permissions, includes
 no analytics or third-party runtime libraries, and does not access the network.
 Android 8.0 (API 26) or later is required. No tests or emulator runs are included
 in this initial setup; release verification covers compilation and APK signing.
