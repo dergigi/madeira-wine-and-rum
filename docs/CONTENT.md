@@ -44,3 +44,13 @@ Since 0.3.0, the main tabs present imagery and short captions. Full articles rem
 in `guide.json` and are shown through story dialogs and expandable sections;
 place tips, source links and itinerary transport notes are retained in details.
 `media.json` holds photograph credits and curated video URLs. See [Media](MEDIA.md).
+
+## Wine colours
+
+`wineColors` supplies the red, white and rosé pages. Each bottle's `family` is one
+of `Red`, `White`, `Rosé`, `Madeira Wine` or `Rum`; `style` further separates the
+fortified Madeira Wine recommendations. Never assign a fortified Sercial or
+Verdelho to the white table-wine family simply because the grape is white.
+Atlantis product details use the Madeira Wine Company producer page. Stock and
+tasting availability remain requests to confirm, not promises. Colour photographs
+are illustrative and are labelled as such in their credits.

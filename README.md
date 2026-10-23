@@ -3,6 +3,7 @@
 A native Android guide to Madeira Wine, agricultural rum and island drinking traditions.
 
 - Browse real Madeira photography, swipe through wine/rum/poncha stories, and tap for the details.
+- Browse red, white and rosé still wines, including a dedicated rosé page. Fortified Madeira Wine retains its own style filters.
 - Watch two curated videos on YouTube, with no autoplay or embedded tracking.
 - Explore an offline, pannable and zoomable island map with ten places, category filters, search and saved stops.
 - Plan a week around cellars, distilleries and vineyard visits.
@@ -66,7 +67,7 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.3.0 bundles an independent guide reviewed on 23 October 2026. It requests
+Version 0.4.0 bundles an independent guide reviewed on 23 October 2026. It requests
 no permissions, includes no analytics or third-party runtime libraries, and does
 not access the network. Saved places remain in local app preferences. External
 maps, booking and source links open in Maps or a browser.
