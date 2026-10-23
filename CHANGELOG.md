@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.1] - 2026-10-23
+
 ### Changed
 
 - Give all twelve still wines individual tasting illustrations, including all six rosés, separate from the category photographs.
