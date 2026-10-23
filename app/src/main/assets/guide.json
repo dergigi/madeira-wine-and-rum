@@ -84,6 +84,26 @@
     "atlantis": {
       "name": "Atlantis table wines · Madeira Wine Company",
       "url": "https://madeirawinecompany.com/en/wine/atlantis-wine.html"
+    },
+    "barbusano_rose": {
+      "name": "Barbusano Rosé 2022 · Grandes Escolhas",
+      "url": "https://grandesescolhas.com/pesquisa-de-vinhos/barbusano-3/"
+    },
+    "ilha": {
+      "name": "Ilha · Crafted Wine & Spirits",
+      "url": "https://www.craftedws.pt/brands/ilha/"
+    },
+    "villoes": {
+      "name": "Rosé dos Villões 2025 · António Maçanita",
+      "url": "https://www.antoniomacanita.com/uploads/produtos_ficheiros/rosa-dos-villaes-2025-eng.pdf"
+    },
+    "william_wines": {
+      "name": "William Restaurant · wine list",
+      "url": "https://menus.belmond.com/reids-palace/william-restaurant/winelist?base_lang=en&collection=UBlvabR1&response=html"
+    },
+    "william_visit": {
+      "name": "William Restaurant · Reid’s Palace",
+      "url": "https://www.belmond.com/en/dining/europe/portugal/madeira/william-restaurant/menus"
     }
   },
   "articles": [
@@ -308,7 +328,8 @@
       "tip": "A specific first tasting pick, not a universal winner.",
       "place": "barbeito",
       "source": "barbeito_wine",
-      "family": "Madeira Wine"
+      "family": "Madeira Wine",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Balanced",
@@ -317,7 +338,8 @@
       "tip": "Choose the producer after tasting.",
       "place": "hh",
       "source": "wine",
-      "family": "Madeira Wine"
+      "family": "Madeira Wine",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Rich",
@@ -326,7 +348,8 @@
       "tip": "For a gift, buy the style the recipient likes rather than the oldest label.",
       "place": "blandys",
       "source": "wine",
-      "family": "Madeira Wine"
+      "family": "Madeira Wine",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Special",
@@ -335,7 +358,8 @@
       "tip": "Availability varies; this is a tasting request, not a stock promise.",
       "place": "borges",
       "source": "ageing",
-      "family": "Madeira Wine"
+      "family": "Madeira Wine",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Rum",
@@ -344,7 +368,8 @@
       "tip": "Compare with an unaged rum to understand what the oak changes.",
       "place": "norte",
       "source": "norte",
-      "family": "Rum"
+      "family": "Rum",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Rum",
@@ -353,7 +378,8 @@
       "tip": "If available, add a Madeira-cask finish to connect both sides of the trip.",
       "place": "hinton",
       "source": "hinton",
-      "family": "Rum"
+      "family": "Rum",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Rum",
@@ -362,7 +388,8 @@
       "tip": "An expensive aged rum is not necessary for your first homemade poncha.",
       "place": "calheta",
       "source": "rum",
-      "family": "Rum"
+      "family": "Rum",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Red",
@@ -372,7 +399,8 @@
       "body": "A local red to compare with the island’s white and rosé wines.",
       "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
       "place": "blandys",
-      "source": "atlantis"
+      "source": "atlantis",
+      "scope": "Made on Madeira"
     },
     {
       "style": "White",
@@ -382,7 +410,8 @@
       "body": "Choose the still Branco bottling when you want white table wine; fortified Verdelho is a different style.",
       "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
       "place": "blandys",
-      "source": "atlantis"
+      "source": "atlantis",
+      "scope": "Made on Madeira"
     },
     {
       "style": "Rosé",
@@ -392,7 +421,134 @@
       "body": "A Madeira rosé to look for on wine lists and in local wine shops.",
       "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
       "place": "blandys",
-      "source": "atlantis"
+      "source": "atlantis",
+      "scope": "Made on Madeira"
+    },
+    {
+      "title": "Barbusano Rosé",
+      "body": "Rosé from Quinta do Barbusano in São Vicente. The 2022 review identifies Aragonez and Tinta Negra; ask about the blend in the current vintage.",
+      "tip": "Ask whether rosé is included when booking a vineyard tasting.",
+      "place": "barbusano",
+      "source": "barbusano_rose",
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "scope": "Made on Madeira"
+    },
+    {
+      "title": "Ilha Rosé",
+      "body": "Diana Silva’s Tinta Negra rosé is part of the Ilha project for Madeiran still wines.",
+      "tip": "Ask the distributor for Madeira stockists and the available vintage.",
+      "source": "ilha",
+      "enquiry": "ilha",
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "scope": "Made on Madeira"
+    },
+    {
+      "title": "Rosé dos Villões",
+      "body": "A Tinta Negra rosé from Companhia dos Profetas e dos Villões. The producer identifies Estreito de Câmara de Lobos and São Vicente as the grape origins for the 2025 vintage.",
+      "tip": "William Restaurant’s linked wine list names the 2024 vintage. Confirm current availability directly with the restaurant.",
+      "source": "villoes",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal",
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "scope": "Made on Madeira"
+    },
+    {
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "scope": "Available on Madeira",
+      "title": "Whispering Angel",
+      "origin": "Côtes de Provence, France",
+      "body": "A rosé from Côtes de Provence, France.",
+      "tip": "Listed on the linked wine menu; confirm vintage, availability and by-the-glass service before visiting. A menu listing is not a promised tasting.",
+      "source": "william_wines",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal"
+    },
+    {
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "scope": "Available on Madeira",
+      "title": "Herdade do Freixo Special Edition Rosé",
+      "origin": "Alentejo, Portugal",
+      "body": "A rosé from Alentejo, Portugal.",
+      "tip": "Listed on the linked wine menu; confirm vintage, availability and by-the-glass service before visiting. A menu listing is not a promised tasting.",
+      "source": "william_wines",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal"
+    },
+    {
+      "style": "Red",
+      "family": "Red",
+      "photo": "red",
+      "scope": "Available on Madeira",
+      "title": "Quinta da Romaneira Apontador",
+      "origin": "Douro, Portugal",
+      "body": "A red wine from Douro, Portugal.",
+      "tip": "Listed on the linked wine menu; confirm vintage, availability and by-the-glass service before visiting. A menu listing is not a promised tasting.",
+      "source": "william_wines",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal"
+    },
+    {
+      "style": "Red",
+      "family": "Red",
+      "photo": "red",
+      "scope": "Available on Madeira",
+      "title": "Marqués de Riscal Reserva",
+      "origin": "Rioja, Spain",
+      "body": "A red wine from Rioja, Spain.",
+      "tip": "Listed on the linked wine menu; confirm vintage, availability and by-the-glass service before visiting. A menu listing is not a promised tasting.",
+      "source": "william_wines",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal"
+    },
+    {
+      "style": "White",
+      "family": "White",
+      "photo": "white",
+      "scope": "Available on Madeira",
+      "title": "Quinta do Vallado Reserva Branco",
+      "origin": "Douro, Portugal",
+      "body": "A white wine from Douro, Portugal.",
+      "tip": "Listed on the linked wine menu; confirm vintage, availability and by-the-glass service before visiting. A menu listing is not a promised tasting.",
+      "source": "william_wines",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal"
+    },
+    {
+      "style": "White",
+      "family": "White",
+      "photo": "white",
+      "scope": "Available on Madeira",
+      "title": "Cloudy Bay Sauvignon Blanc",
+      "origin": "Marlborough, New Zealand",
+      "body": "A white wine from Marlborough, New Zealand.",
+      "tip": "Listed on the linked wine menu; confirm vintage, availability and by-the-glass service before visiting. A menu listing is not a promised tasting.",
+      "source": "william_wines",
+      "availabilitySource": "william_wines",
+      "venue": "William Restaurant · Reid’s Palace, Funchal",
+      "visitSource": "william_visit",
+      "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal"
     }
   ],
   "days": [
@@ -471,7 +627,7 @@
       "photo": "rose",
       "title": "Rosé, island style",
       "tagline": "Rosado · Madeiran still wine",
-      "body": "Madeira makes rosé too. Atlantis Rosé uses Tinta Negra grapes. Start with a glass over lunch and ask how dry or fruity the current vintage tastes.",
+      "body": "Madeira makes more than one rosé. Explore Atlantis, Barbusano, Ilha and Rosé dos Villões in our selection. Styles vary by producer and vintage. Switch to Available on Madeira for wines from other regions listed by local venues.",
       "pairing": "Grilled fish · seafood · summer salads",
       "source": "atlantis"
     },

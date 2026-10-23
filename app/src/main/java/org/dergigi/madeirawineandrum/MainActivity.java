@@ -64,7 +64,7 @@ public final class MainActivity extends Activity {
     private IslandMapView map;
     private String tab="Discover", category="All", query="", taste="All";
     private boolean savedOnly;
-    private String wineType="All";
+    private String wineType="All", wineScope="Made on Madeira";
     private final Set<String> saved=new HashSet<>();
     private final Map<String,Integer> positions=new HashMap<>();
     private int dp(float n) { return Math.round(n*getResources().getDisplayMetrics().density); }
@@ -78,7 +78,7 @@ public final class MainActivity extends Activity {
         if (state!=null) {
             tab=state.getString("tab","Discover");category=state.getString("category","All");
             query=state.getString("query","");taste=state.getString("taste","All");savedOnly=state.getBoolean("savedOnly");
-            wineType=state.getString("wineType","All");
+            wineType=state.getString("wineType","All");wineScope=state.getString("wineScope","Made on Madeira");
             ArrayList<String> history=state.getStringArrayList("screens");if(history!=null)screens.addAll(history);
             Bundle offsets=state.getBundle("positions");if(offsets!=null)for(String name:offsets.keySet())positions.put(name,offsets.getInt(name));
         }
@@ -102,7 +102,7 @@ public final class MainActivity extends Activity {
     }
     @Override protected void onSaveInstanceState(Bundle out) {
         positions.put(positionKey(),scroll.getScrollY());
-        out.putString("tab",tab);out.putString("category",category);out.putString("query",query);out.putString("taste",taste);out.putBoolean("savedOnly",savedOnly);out.putString("wineType",wineType);
+        out.putString("tab",tab);out.putString("category",category);out.putString("query",query);out.putString("taste",taste);out.putBoolean("savedOnly",savedOnly);out.putString("wineType",wineType);out.putString("wineScope",wineScope);
         out.putStringArrayList("screens",screens);Bundle offsets=new Bundle();
         for(String name:positions.keySet())offsets.putInt(name,positions.get(name));out.putBundle("positions",offsets);
         super.onSaveInstanceState(out);
@@ -312,7 +312,7 @@ public final class MainActivity extends Activity {
         
     }
     private void openWineColor(String color) {
-        wineType=color;taste="All";positions.put("Bottles",0);go("Bottles");
+        wineType=color;wineScope="Made on Madeira";taste="All";positions.put("Bottles",0);go("Bottles");
     }
     private JSONObject selectedWineColor() {
         for(JSONObject color:guide.entries("wineColors"))if(wineType.equals(color.optString("name")))return color;
@@ -323,41 +323,71 @@ public final class MainActivity extends Activity {
         LinearLayout c=detail();detailPhoto(c,color.optString("photo"));title(c,color.optString("title"),28);para(c,color.optString("body"));
         caption(c,"These are still table wines. Fortified Madeira Wine has its own styles, from dry to sweet.");
         source(c,color.optString("source"));source(c,"still");
+        if(color.optString("name").equals("Rosé")){source(c,"barbusano_rose");source(c,"ilha");source(c,"villoes");}
+    }
+    private void wineScopeSelector() {
+        LinearLayout row=new LinearLayout(this);row.setGravity(Gravity.CENTER_VERTICAL);body.addView(row);
+        for(String scope:new String[]{"Made on Madeira","Available on Madeira"}) {
+            boolean active=wineScope.equals(scope);
+            Button choice=button(scope,()->{wineScope=scope;positions.put("Bottles",0);render();});
+            choice.setTextSize(12);choice.setSelected(active);choice.setTypeface(null,active?Typeface.BOLD:Typeface.NORMAL);
+            choice.setPadding(dp(8),dp(8),dp(8),dp(8));
+            choice.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(color(R.color.ripple)),background(active?color(R.color.selected_surface):CREAM,active?INK:color(R.color.outline)),null));
+            LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(0,-2,1);lp.setMargins(dp(3),dp(4),dp(3),dp(8));row.addView(choice,lp);
+        }
     }
     private void renderBottles() {
         JSONObject color=selectedWineColor();
-        title(body,color==null?"Find your flavour":color.optString("title"),34);
+        boolean showScope=color!=null||wineType.equals("All");
+        boolean elsewhere=showScope&&wineScope.equals("Available on Madeira");
+        title(body,elsewhere?"Available on Madeira":color==null?"Find your flavour":color.optString("title"),34);
         chips(body,new String[]{"All","Rosé","Red","White","Madeira Wine","Rum"},wineType,value->{wineType=value;taste="All";positions.put("Bottles",0);render();});
-        if(color!=null) {
+        if(showScope)wineScopeSelector();
+        if(elsewhere)caption(body,"Wines from elsewhere, listed by local venues. Confirm current availability before visiting.");
+        if(color!=null&&!elsewhere) {
             photoCard(body,color.optString("photo"),"MADEIRAN STILL WINE",tr(color.optString("name")),"About this style  →",235,()->wineColorDetails(color),false);
             caption(body,color.optString("pairing"));
-            section(body,"A bottle to look for");
+            section(body,"Bottles to discover");
         } else if(wineType.equals("Madeira Wine")) {
             caption(body,"Fortified Madeira Wine · Choose by sweetness and style");
             chips(body,new String[]{"All","Dry","Balanced","Rich","Special"},taste,true,value->{taste=value;positions.put("Bottles",0);render();});
-        } else if(wineType.equals("All")) {
+        } else if(wineType.equals("All")&&!elsewhere) {
             caption(body,"Red, white & rosé are still wines. Madeira Wine is fortified.");
         }
+        if(color!=null&&elsewhere) {
+            photoCard(body,color.optString("photo"),"FROM ELSEWHERE",tr(color.optString("name")),"Listed on Madeira",180,null,false);
+        }
+        Set<String> shownPhotos=new HashSet<>();if(color!=null)shownPhotos.add(color.optString("photo"));
         for(JSONObject bottle:guide.entries("bottles")) {
             String family=bottle.optString("family");
+            String scope=elsewhere?"Available on Madeira":"Made on Madeira";
+            if(!scope.equals(bottle.optString("scope","Made on Madeira")))continue;
             if(!wineType.equals("All")&&!wineType.equals(family))continue;
             if(wineType.equals("Madeira Wine")&&!taste.equals("All")&&!taste.equals(bottle.optString("style")))continue;
             String image=bottlePhoto(bottle);
             String label=family.equals("Madeira Wine")?tr("FORTIFIED · ")+tr(bottle.optString("style")):family.equals("Rum")?"RUM":tr("STILL WINE · ")+tr(family);
-            if(color!=null&&image.equals(color.optString("photo"))) {
+            if(!shownPhotos.add(image)) {
                 // Keep one hero photograph; the bottle remains a full-screen destination.
-                body.addView(destinationRow(bottle.optString("title"),()->openBottle(bottle)));
+                body.addView(destinationRow(bottle.optString("title")+(bottle.has("origin")?" · "+bottle.optString("origin"):""),()->openBottle(bottle)));
             } else {
                 photoCard(body,image,label.toUpperCase(Locale.ROOT),bottle.optString("title"),"Tasting notes & where to ask  →",240,()->openBottle(bottle),false);
             }
         }
-        if(color!=null)body.addView(button("Explore a vineyard tasting →",()->openPlace(guide.place("barbusano"))));
+        if(color!=null&&!elsewhere)body.addView(button("Explore a vineyard tasting →",()->openPlace(guide.place("barbusano"))));
     }
     private void openBottle(JSONObject bottle) { navigate("bottle",String.valueOf(guide.entries("bottles").indexOf(bottle))); }
     private void renderBottle(JSONObject bottle) {
         LinearLayout c=detail();detailPhoto(c,bottlePhoto(bottle));eyebrow(c,tr(bottle.optString("style")).toUpperCase(Locale.ROOT),MUTED);title(c,bottle.optString("title"),29);
         para(c,bottle.optString("body"));caption(c,bottle.optString("tip"));
-        c.addView(button(bottle.optString("family").equals("Red")||bottle.optString("family").equals("White")||bottle.optString("family").equals("Rosé")?"Ask at Blandy’s Wine Lodge →":"Where to try it →",()->openPlace(guide.place(bottle.optString("place")))));
+        if(bottle.has("origin"))caption(c,tr("Origin · ")+bottle.optString("origin"));
+        if(bottle.has("place"))c.addView(button(bottle.optString("place").equals("blandys")?"Ask at Blandy’s Wine Lodge →":"Where to try it →",()->openPlace(guide.place(bottle.optString("place")))));
+        if(bottle.has("availabilitySource")) {
+            section(c,"Where it is listed");para(c,bottle.optString("venue"));
+            c.addView(button("View venue wine list ↗",()->open(guide.source(bottle.optString("availabilitySource")).optString("url"))));
+            c.addView(button("Visit information / booking ↗",()->open(guide.source(bottle.optString("visitSource")).optString("url"))));
+            c.addView(button("Open in Google Maps ↗",()->open(Uri.parse("https://www.google.com/maps/search/").buildUpon().appendQueryParameter("api","1").appendQueryParameter("query",bottle.optString("mapsQuery")).build().toString())));
+        }
+        if(bottle.has("enquiry"))c.addView(button("Ask about local stockists ↗",()->open(guide.source(bottle.optString("enquiry")).optString("url"))));
         source(c,bottle.optString("source"));
     }
     private void source(LinearLayout parent,String id) {
@@ -414,7 +444,7 @@ public final class MainActivity extends Activity {
             icon.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);FrameLayout.LayoutParams pl=new FrameLayout.LayoutParams(dp(50),dp(50),Gravity.TOP|Gravity.LEFT);pl.setMargins(dp(18),dp(18),0,0);frame.addView(icon,pl);}
         if(action!=null){frame.setFocusable(true);frame.setContentDescription(tr(kicker)+". "+tr(heading)+". "+tr(subtitle));frame.setOnClickListener(v->action.run());
             frame.setForeground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(0x35FFFFFF),null,background(Color.WHITE,0)));}
-        if(action==null){frame.setContentDescription(photo.optString("caption"));frame.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);}
+        if(action==null){frame.setContentDescription(tr(kicker)+". "+tr(heading)+". "+tr(subtitle)+". "+photo.optString("caption"));frame.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);}
         return frame;
     }
     private void detailPhoto(LinearLayout parent,String key) {

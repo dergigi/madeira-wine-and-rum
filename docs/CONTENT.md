@@ -83,3 +83,24 @@ Android recreates the activity on a theme change, using the existing saved-state
 handling for the current page, filters and scroll position. Photographs and map
 pin fills keep their original colours; category text has separate theme colours.
 The Android 12+ splash uses `ic_splash.xml`; launcher artwork stays unchanged.
+
+## Origin and local availability
+
+Wine colour sections split `scope` into `Made on Madeira` and
+`Available on Madeira` (wines from elsewhere listed by an island venue).
+Rum and fortified Madeira Wine retain their Madeira origin. The scope selector
+is preserved across activity recreation and language changes.
+
+Checked 2026-10-23: additional local rosés use Grandes Escolhas' Barbusano 2022
+review, Crafted Wine & Spirits' Ilha brand page, and António Maçanita's Rosé dos
+Villões 2025 technical sheet. Each entry includes the corresponding source URL.
+The current Reid’s Palace dining page links the William Restaurant wine list
+used for six outside-origin wines. These are menu listings, not live stock or
+promises of a tasting. The restaurant lists a different vintage of Rosé dos
+Villões from the producer sheet; the guide states that explicitly.
+
+`place` is optional for bottles. `enquiry` references a source for stockist
+questions. `availabilitySource`, `venue`, `visitSource` and `mapsQuery` provide
+venue-specific menu evidence and visit links. Do not invent a map stop or send
+unrelated bottles to an existing producer. Keep source URLs and structural
+fields identical in both languages. Preserve bottle array ordering.

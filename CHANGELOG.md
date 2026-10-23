@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Made on Madeira and Available on Madeira browsing categories for rosé, red and white wines, with English and German labels.
+- Three additional Madeiran rosés: Barbusano, Ilha and Rosé dos Villões.
+- Six wines from elsewhere listed at William Restaurant, with origins, venue wine-list links and availability guidance.
+
+### Fixed
+
+- Link bottle enquiries to the appropriate producer, distributor or restaurant instead of routing every still wine to Blandy’s.
+- Avoid repeated photo cards when several bottles share an illustrative image.
+
 ## [0.6.1] - 2026-10-23
 
 ### Changed
