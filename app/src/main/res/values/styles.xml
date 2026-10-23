@@ -1,5 +1,5 @@
 <resources>
-    <color name="cream">#F5EFE3</color>
+    <color name="cream">#F8F6EF</color>
     <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:windowBackground">@color/cream</item>
