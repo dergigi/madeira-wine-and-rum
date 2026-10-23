@@ -70,7 +70,7 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.6.0 bundles an independent guide reviewed on 23 October 2026. It requests
+Version 0.6.1 bundles an independent guide reviewed on 23 October 2026. It requests
 no permissions, includes no analytics or third-party runtime libraries, and does
 not access the network. Saved places and the language choice remain in local app preferences. External
 maps, booking and source links open in Maps or a browser.
