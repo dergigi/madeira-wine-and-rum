@@ -2,6 +2,7 @@
 
 A native Android guide to Madeira Wine, agricultural rum and island drinking traditions.
 
+- Follow Android’s system light/dark theme across the guide, map and splash screen.
 - Switch between English and German with the top-right flag; the choice stays on this device.
 - Open full detail screens with Back navigation, including places, tasting notes and articles.
 - Browse real Madeira photography, swipe through wine/rum/poncha stories, and tap for the details.
@@ -69,7 +70,7 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.5.0 bundles an independent guide reviewed on 23 October 2026. It requests
+Version 0.6.0 bundles an independent guide reviewed on 23 October 2026. It requests
 no permissions, includes no analytics or third-party runtime libraries, and does
 not access the network. Saved places and the language choice remain in local app preferences. External
 maps, booking and source links open in Maps or a browser.

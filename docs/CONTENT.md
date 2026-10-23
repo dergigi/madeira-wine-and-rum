@@ -73,3 +73,13 @@ screen history and offsets are also saved across activity recreation.
 Detail screens use a Back button and Android Back. Related articles open their
 own pages; there are no modal dialogs or expanding text sections.
 External webpages and videos retain their original languages.
+
+## System appearance
+
+The app follows Android's system night mode without a separate preference.
+`values/colors.xml` and `values-night/colors.xml` define the UI and map palettes.
+`BaseAppTheme` also switches native widget styling and system-bar icon contrast.
+Android recreates the activity on a theme change, using the existing saved-state
+handling for the current page, filters and scroll position. Photographs and map
+pin fills keep their original colours; category text has separate theme colours.
+The Android 12+ splash uses `ic_splash.xml`; launcher artwork stays unchanged.
