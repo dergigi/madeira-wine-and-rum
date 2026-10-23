@@ -14,7 +14,9 @@ import java.util.*;
 
 /** Native, offline island guide; the browser or Maps handles external destinations. */
 public final class MainActivity extends Activity {
-    private static final int INK=Color.rgb(25,59,49), MUTED=Color.rgb(98,110,102), CREAM=Color.rgb(248,246,239);
+    // Resource qualifiers follow system night mode; Android recreates this activity on changes.
+    private int INK, MUTED, CREAM;
+    private int color(int resource) { return getColor(resource); }
     private Guide guide;
     private JSONObject media;
     private PhotoLoader photos;
@@ -69,6 +71,7 @@ public final class MainActivity extends Activity {
 
     @Override public void onCreate(Bundle state) {
         super.onCreate(state);
+        INK=color(R.color.ink);MUTED=color(R.color.muted);CREAM=color(R.color.page);
         language=getPreferences(0).getString("language",Locale.getDefault().getLanguage().equals("de")?"de":"en");
         loadLanguage();photos=new PhotoLoader(this);
         saved.addAll(getPreferences(0).getStringSet("saved",Collections.emptySet()));
@@ -91,7 +94,7 @@ public final class MainActivity extends Activity {
         masthead.setPadding(dp(12),dp(12),dp(12),dp(12));root.addView(masthead);
         scroll=new ScrollView(this);scroll.setFillViewport(true);scroll.setId(View.generateViewId());
         root.addView(scroll,new LinearLayout.LayoutParams(-1,0,1));
-        View divider=new View(this);divider.setBackgroundColor(0xFFDDE2D7);root.addView(divider,new LinearLayout.LayoutParams(-1,dp(1)));
+        View divider=new View(this);divider.setBackgroundColor(color(R.color.outline));root.addView(divider,new LinearLayout.LayoutParams(-1,dp(1)));
         nav=new LinearLayout(this);nav.setPadding(dp(8),dp(8),dp(8),dp(8));root.addView(nav);
         setContentView(root);render();
         if(android.os.Build.VERSION.SDK_INT>=33)getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
@@ -130,7 +133,7 @@ public final class MainActivity extends Activity {
     private Button button(String label,Runnable action) {
         Button b=new Button(this);b.setText(tr(label));b.setIncludeFontPadding(false);b.setMinWidth(0);b.setMinimumWidth(0);b.setTextLocale(Locale.forLanguageTag(language));b.setAllCaps(false);b.setTextSize(14);b.setTextColor(INK);
         b.setMinHeight(dp(48));b.setMinimumHeight(dp(48));b.setPadding(dp(12),dp(8),dp(12),dp(8));
-        b.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(0x18315F53),background(Color.rgb(235,239,227),0),null));
+        b.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(color(R.color.ripple)),background(color(R.color.surface),0),null));
         LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-1,-2);lp.topMargin=dp(4);lp.bottomMargin=dp(6);b.setLayoutParams(lp);
         b.setOnClickListener(v->action.run());return b;
     }
@@ -146,7 +149,7 @@ public final class MainActivity extends Activity {
         for(int i=0;i<tabs.length;i++) {
             String name=tabs[i];boolean active=tab.equals(name);
             LinearLayout item=column();item.setGravity(Gravity.CENTER);item.setPadding(dp(2),dp(8),dp(2),dp(8));
-            item.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(0x18315F53),background(active?Color.rgb(230,236,222):CREAM,0),null));
+            item.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(color(R.color.ripple)),background(active?color(R.color.selected_surface):CREAM,0),null));
             item.addView(new NavIcon(this,i,active?INK:MUTED),new LinearLayout.LayoutParams(dp(23),dp(23)));
             TextView label=text(labels[i],11,active?INK:MUTED);label.setPadding(0,dp(4),0,0);label.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);label.setGravity(Gravity.CENTER);label.setSingleLine(true);label.setAutoSizeTextTypeUniformWithConfiguration(10,12,1,android.util.TypedValue.COMPLEX_UNIT_SP);item.addView(label,new LinearLayout.LayoutParams(-1,dp(26)));
             item.setSelected(active);item.setContentDescription(tr(labels[i]));item.setFocusable(true);item.setOnClickListener(v->go(name));
@@ -188,7 +191,7 @@ public final class MainActivity extends Activity {
         LinearLayout row=new LinearLayout(this);h.addView(row);parent.addView(h);
         for (String option:options) {
             Button b=button(option,()->action.accept(option));boolean active=option.equals(selected);b.setSelected(active);
-            b.setTextColor(active?Color.WHITE:INK);b.setBackground(background(active?INK:Color.rgb(231,235,222),0));
+            b.setTextColor(active?color(R.color.on_selected):INK);b.setBackground(background(active?INK:color(R.color.chip_surface),0));
             LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-2,-2);lp.setMargins(0,dp(4),dp(8),dp(10));row.addView(b,lp);
             if(active)h.post(()->h.smoothScrollTo(Math.max(0,b.getLeft()-dp(8)),0));
         }
@@ -200,7 +203,7 @@ public final class MainActivity extends Activity {
             if (hits.size()==1) openPlace(hits.get(0));
             else navigate("cluster",String.join(",",hits.stream().map(p->p.optString("id")).toArray(String[]::new)));
         });
-        map.setBackground(background(Color.rgb(223,234,230),0));map.setClipToOutline(true);
+        map.setBackground(background(color(R.color.map_water),0));map.setClipToOutline(true);
         body.addView(map,new LinearLayout.LayoutParams(-1,dp(300)));
         LinearLayout controls=new LinearLayout(this);body.addView(controls);
         for (String label:new String[]{"Zoom in","Zoom out","Reset"}) {
@@ -209,7 +212,7 @@ public final class MainActivity extends Activity {
             LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(0,dp(48),1);lp.setMargins(dp(2),dp(6),dp(2),0);controls.addView(b,lp);
         }
         LinearLayout legend=new LinearLayout(this);body.addView(legend);
-        for(String type:new String[]{"Wine","Rum","Local"}) {TextView label=text("●  "+tr(type),12,IslandMapView.color(type));label.setPadding(0,dp(8),dp(20),dp(8));legend.addView(label);}
+        for(String type:new String[]{"Wine","Rum","Local"}) {TextView label=text("●  "+tr(type),12,IslandMapView.labelColor(this,type));label.setPadding(0,dp(8),dp(20),dp(8));legend.addView(label);}
         caption(body,"Pinch to zoom · Approximate locations");
         chips(body,new String[]{"All","Wine","Rum","Local"},category,value->{category=value;positions.put("Map",scroll.getScrollY());render();});
         EditText search=new EditText(this);search.setSingleLine(true);search.setTextColor(INK);search.setHintTextColor(MUTED);
@@ -252,7 +255,7 @@ public final class MainActivity extends Activity {
     private void renderPlace(JSONObject p) {
         LinearLayout c=detail();
         detailPhoto(c,placePhoto(p));
-        eyebrow(c,tr(p.optString("type")).toUpperCase(Locale.ROOT)+" · "+p.optString("area"),IslandMapView.color(p.optString("type")));
+        eyebrow(c,tr(p.optString("type")).toUpperCase(Locale.ROOT)+" · "+p.optString("area"),IslandMapView.labelColor(this,p.optString("type")));
         title(c,p.optString("name"),28);para(c,p.optString("why"));
         title(c,"What to ask for",21);para(c,p.optString("order"));
         section(c,"Plan your visit");para(c,p.optString("planning"));caption(c,p.optString("address"));
@@ -345,7 +348,7 @@ public final class MainActivity extends Activity {
     private View destinationRow(String label,Runnable action) {
         LinearLayout row=new LinearLayout(this);row.setGravity(Gravity.CENTER_VERTICAL);
         row.setPadding(dp(16),dp(16),dp(16),dp(16));row.setMinimumHeight(dp(64));
-        row.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(0x18315F53),background(0xFFF0F1E9,0xFFDDE2D7),null));
+        row.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(color(R.color.ripple)),background(color(R.color.row_surface),color(R.color.outline)),null));
         TextView name=text(label,16,INK);name.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);
         row.addView(name,new LinearLayout.LayoutParams(0,-2,1));
         TextView arrow=text("›",24,INK);arrow.setPadding(dp(12),0,0,0);arrow.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);row.addView(arrow);
@@ -369,7 +372,7 @@ public final class MainActivity extends Activity {
         lp.width=dp(Math.min(width,getResources().getDisplayMetrics().widthPixels/getResources().getDisplayMetrics().density-64));lp.rightMargin=dp(14);tile.setLayoutParams(lp);
     }
     private FrameLayout photoCard(LinearLayout parent,String key,String kicker,String heading,String subtitle,int height,Runnable action,boolean play) {
-        FrameLayout frame=new FrameLayout(this);frame.setBackground(background(Color.rgb(198,205,187),0));frame.setClipToOutline(true);
+        FrameLayout frame=new FrameLayout(this);frame.setBackground(background(color(R.color.photo_placeholder),0));frame.setClipToOutline(true);
         int extra=Math.round(Math.max(0,getResources().getConfiguration().fontScale-1)*150);
         LinearLayout.LayoutParams size=new LinearLayout.LayoutParams(-1,dp(height+extra));size.bottomMargin=dp(14);parent.addView(frame,size);
         ImageView image=new ImageView(this);image.setScaleType(ImageView.ScaleType.CENTER_CROP);image.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);

@@ -1,13 +1,13 @@
 <resources>
-    <color name="cream">#F8F6EF</color>
-    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+    <style name="BaseAppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
-        <item name="android:windowBackground">@color/cream</item>
-        <item name="android:colorAccent">#8A403F</item>
+        <item name="android:windowBackground">@color/page</item>
+        <item name="android:colorAccent">@color/accent</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:statusBarColor">@color/cream</item>
-        <item name="android:navigationBarColor">@color/cream</item>
+        <item name="android:statusBarColor">@color/page</item>
+        <item name="android:navigationBarColor">@color/page</item>
         <item name="android:windowActionModeOverlay">true</item>
     </style>
+    <style name="AppTheme" parent="BaseAppTheme" />
 </resources>

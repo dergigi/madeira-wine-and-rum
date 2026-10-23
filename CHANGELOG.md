@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- System-following dark mode across navigation, detail pages, filters, native controls and the island map.
+- Dark launch background, Android system bars and Android 12+ splash artwork.
+
+### Changed
+
+- Use shared light/dark colour resources with readable category labels and selected filters; preserve original photo colours.
+
 ## [0.5.0] - 2026-10-23
 
 ### Added

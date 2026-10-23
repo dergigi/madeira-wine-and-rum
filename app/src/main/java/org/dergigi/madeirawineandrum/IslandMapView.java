@@ -68,20 +68,24 @@ final class IslandMapView extends View {
         return new PointF(getWidth()/2f+panX+(float)(lon+16.985)*.842f*unit*zoom,
                 getHeight()/2f+panY-(float)(lat-32.755)*unit*zoom);
     }
+    static int labelColor(Context context,String type) {
+        return context.getColor(type.equals("Wine")?R.color.wine_label:type.equals("Rum")?R.color.rum_label:R.color.local_label);
+    }
+    private int colorResource(int resource) { return getContext().getColor(resource); }
     static int color(String type) {
         return Color.parseColor(type.equals("Wine")?"#843F4A":type.equals("Rum")?"#986014":"#315F53");
     }
     @Override protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas); canvas.drawColor(Color.parseColor("#DFEAE6"));
+        super.onDraw(canvas); canvas.drawColor(colorResource(R.color.map_water));
         Path land=new Path();
         for (int i=0;i<coast.size();i++) {
             PointF p=point(coast.get(i)[0],coast.get(i)[1]);
             if (i==0) land.moveTo(p.x,p.y); else land.lineTo(p.x,p.y);
         }
-        land.close(); paint.setStyle(Paint.Style.FILL); paint.setColor(Color.parseColor("#F1E9D5")); canvas.drawPath(land,paint);
-        paint.setStyle(Paint.Style.STROKE);paint.setStrokeWidth(density);paint.setColor(Color.parseColor("#9BAF94"));canvas.drawPath(land,paint);
+        land.close(); paint.setStyle(Paint.Style.FILL); paint.setColor(colorResource(R.color.map_land)); canvas.drawPath(land,paint);
+        paint.setStyle(Paint.Style.STROKE);paint.setStrokeWidth(density);paint.setColor(colorResource(R.color.map_coast));canvas.drawPath(land,paint);
         paint.setStyle(Paint.Style.FILL);paint.setTypeface(Typeface.create("sans-serif",Typeface.BOLD));
-        paint.setTextSize(11*density);paint.setTextAlign(Paint.Align.LEFT);paint.setColor(Color.parseColor("#476D62"));
+        paint.setTextSize(11*density);paint.setTextAlign(Paint.Align.LEFT);paint.setColor(colorResource(R.color.map_label));
         canvas.drawText("N ↑",16*density,24*density,paint);
         paint.setTextAlign(Paint.Align.CENTER);paint.setTextSize(12*density);
         if (zoom<2) canvas.drawText("M A D E I R A",getWidth()/2f,getHeight()/2f,paint);

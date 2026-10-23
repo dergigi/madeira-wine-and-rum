@@ -1,0 +1,22 @@
+<resources>
+    <color name="page">#121D19</color>
+    <color name="ink">#E4EDE2</color>
+    <color name="muted">#AFBDB3</color>
+    <color name="surface">#24372D</color>
+    <color name="selected_surface">#314A3C</color>
+    <color name="chip_surface">#24372D</color>
+    <color name="row_surface">#1D2C24</color>
+    <color name="outline">#3C5144</color>
+    <color name="ripple">#30D4E8D3</color>
+    <color name="on_selected">#121D19</color>
+    <color name="photo_placeholder">#24372D</color>
+    <color name="map_water">#182D30</color>
+    <color name="map_land">#344238</color>
+    <color name="map_coast">#789180</color>
+    <color name="map_label">#C0D5C7</color>
+    <color name="wine_label">#E8A0AC</color>
+    <color name="rum_label">#E6BC75</color>
+    <color name="local_label">#A5D3BD</color>
+    <color name="accent">#E8A0AC</color>
+    <color name="splash_land">#A5D3BD</color>
+</resources>
