@@ -130,6 +130,36 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "source": "https://commons.wikimedia.org/wiki/File:D%27Oliveiras_tasting_hall._Funchal,_Madeira.jpg",
       "changes": "Resized and converted to WebP; cropped to fit in the app."
+    },
+    "rose": {
+      "file": "photos/rose.webp",
+      "caption": "Rosé wine · illustrative photograph",
+      "title": "Rosé wine - July 2023 - Sarah Stierch 01-cropped.jpg",
+      "artist": "User:Missvain",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ros%C3%A9_wine_-_July_2023_-_Sarah_Stierch_01-cropped.jpg",
+      "changes": "Resized and converted to WebP; cropped to fit in the app."
+    },
+    "white": {
+      "file": "photos/white.webp",
+      "caption": "White wine · illustrative photograph",
+      "title": "Glass of White Wine shot with a bottle of white wine - Evan Swigart.jpg",
+      "artist": "Evan Swigart from Chicago, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Glass_of_White_Wine_shot_with_a_bottle_of_white_wine_-_Evan_Swigart.jpg",
+      "changes": "Resized and converted to WebP; cropped to fit in the app."
+    },
+    "red": {
+      "file": "photos/red.webp",
+      "caption": "Red wine · illustrative photograph",
+      "title": "Wine being poured into a glass.jpg",
+      "artist": "Fabio Ingrosso",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wine_being_poured_into_a_glass.jpg",
+      "changes": "Resized and converted to WebP; cropped to fit in the app."
     }
   },
   "videos": [

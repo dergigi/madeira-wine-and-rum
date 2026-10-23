@@ -76,6 +76,14 @@
     "sercial": {
       "name": "Sercial · Blandy’s technical sheet",
       "url": "https://blandys.com/wp-content/uploads/2025/02/Blandys-5YO-Sercial.pdf"
+    },
+    "still": {
+      "name": "Red, white and rosé · IVBAM",
+      "url": "https://ivbam.madeira.gov.pt/vinhos-tranquilos-e-espumante/tintos-brancos-e-roses"
+    },
+    "atlantis": {
+      "name": "Atlantis table wines · Madeira Wine Company",
+      "url": "https://madeirawinecompany.com/en/wine/atlantis-wine.html"
     }
   },
   "articles": [
@@ -299,7 +307,8 @@
       "body": "For someone who wants the dry end of Madeira Wine. Try it before dinner and compare its acidity with a sweeter style.",
       "tip": "A specific first tasting pick, not a universal winner.",
       "place": "barbeito",
-      "source": "barbeito_wine"
+      "source": "barbeito_wine",
+      "family": "Madeira Wine"
     },
     {
       "style": "Balanced",
@@ -307,7 +316,8 @@
       "body": "Start here if you want medium-dry Madeira Wine. Ask the lodge to pour its Verdelho alongside Sercial so you can find your preferred balance.",
       "tip": "Choose the producer after tasting.",
       "place": "hh",
-      "source": "wine"
+      "source": "wine",
+      "family": "Madeira Wine"
     },
     {
       "style": "Rich",
@@ -315,7 +325,8 @@
       "body": "Boal sits on the medium-sweet side; Malmsey is the classic rich, sweet direction. At Blandy’s, ask which bottles and pours are currently offered.",
       "tip": "For a gift, buy the style the recipient likes rather than the oldest label.",
       "place": "blandys",
-      "source": "wine"
+      "source": "wine",
+      "family": "Madeira Wine"
     },
     {
       "style": "Special",
@@ -323,7 +334,8 @@
       "body": "For a splurge, ask H.M. Borges about its available Frasqueiras. Terrantez is a rarer grape to explore when offered. Check the price of a pour before ordering.",
       "tip": "Availability varies; this is a tasting request, not a stock promise.",
       "place": "borges",
-      "source": "ageing"
+      "source": "ageing",
+      "family": "Madeira Wine"
     },
     {
       "style": "Rum",
@@ -331,7 +343,8 @@
       "body": "Our first aged-rum comparison pick at Engenhos do Norte. It has a documented international award history; your own tasting should decide the purchase.",
       "tip": "Compare with an unaged rum to understand what the oak changes.",
       "place": "norte",
-      "source": "norte"
+      "source": "norte",
+      "family": "Rum"
     },
     {
       "style": "Rum",
@@ -339,7 +352,8 @@
       "body": "A second aged-rum candidate, included in the producer’s tasting experiences. Compare it with the 970 on a different day.",
       "tip": "If available, add a Madeira-cask finish to connect both sides of the trip.",
       "place": "hinton",
-      "source": "hinton"
+      "source": "hinton",
+      "family": "Rum"
     },
     {
       "style": "Rum",
@@ -347,7 +361,38 @@
       "body": "For mixing, ask the mill for a natural rum intended for poncha. Look for the protected Madeira origin on the label and ask about strength.",
       "tip": "An expensive aged rum is not necessary for your first homemade poncha.",
       "place": "calheta",
-      "source": "rum"
+      "source": "rum",
+      "family": "Rum"
+    },
+    {
+      "style": "Red",
+      "family": "Red",
+      "photo": "red",
+      "title": "Atlantis Tinto",
+      "body": "A local red to compare with the island’s white and rosé wines.",
+      "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
+      "place": "blandys",
+      "source": "atlantis"
+    },
+    {
+      "style": "White",
+      "family": "White",
+      "photo": "white",
+      "title": "Atlantis Verdelho Branco",
+      "body": "Choose the still Branco bottling when you want white table wine; fortified Verdelho is a different style.",
+      "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
+      "place": "blandys",
+      "source": "atlantis"
+    },
+    {
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "title": "Atlantis Rosé",
+      "body": "A Madeira rosé to look for on wine lists and in local wine shops.",
+      "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
+      "place": "blandys",
+      "source": "atlantis"
     }
   ],
   "days": [
@@ -418,6 +463,35 @@
         "borges"
       ],
       "transport": "Leave time for collection and packing. These are suggested days, not fixed reservations."
+    }
+  ],
+  "wineColors": [
+    {
+      "name": "Red",
+      "photo": "red",
+      "title": "Red, with island roots",
+      "tagline": "Tinto · Madeiran still wine",
+      "body": "Explore the island’s red table wines. Atlantis Tinto is made predominantly from Tinta Negra. Ask for a glass alongside grilled meat or seared tuna.",
+      "pairing": "Grilled meat · seared tuna",
+      "source": "atlantis"
+    },
+    {
+      "name": "White",
+      "photo": "white",
+      "title": "White, with an Atlantic edge",
+      "tagline": "Branco · Madeiran still wine",
+      "body": "Verdelho also makes still white wine. Atlantis Branco is one example: a different expression from fortified Verdelho Madeira Wine. Try it with fish or shellfish.",
+      "pairing": "Fish · shellfish · light starters",
+      "source": "atlantis"
+    },
+    {
+      "name": "Rosé",
+      "photo": "rose",
+      "title": "Rosé, island style",
+      "tagline": "Rosado · Madeiran still wine",
+      "body": "Madeira makes rosé too. Atlantis Rosé uses Tinta Negra grapes. Start with a glass over lunch and ask how dry or fruity the current vintage tastes.",
+      "pairing": "Grilled fish · seafood · summer salads",
+      "source": "atlantis"
     }
   ]
 }

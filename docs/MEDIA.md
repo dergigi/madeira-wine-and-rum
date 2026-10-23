@@ -79,3 +79,23 @@ on 2026-10-23.
 
 - [Inside Madeira Wine](https://www.youtube.com/watch?v=shUdh88AlzQ) — Wine Dine Combine. [Creator’s page](https://winedinecombine.com/project/blandys-madeira/).
 - [From cane to rum](https://www.youtube.com/watch?v=SJR7-xzX6-o) — Eat & Walkabout. [Creator’s page](https://www.eatandwalkabout.com/en/portugal/virtual-experiences/porto-da-cruz-madeira-rum.html).
+
+## Wine-colour photography (0.4.0)
+
+These are illustrative wine photographs, not pictures of Madeiran producers or the recommended bottles.
+
+### rose.webp
+
+Rosé wine - July 2023 - Sarah Stierch 01-cropped.jpg — User:Missvain. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
+[Original file](https://commons.wikimedia.org/wiki/File:Ros%C3%A9_wine_-_July_2023_-_Sarah_Stierch_01-cropped.jpg). Resized and converted to WebP; cropped in the UI.
+
+### white.webp
+
+Glass of White Wine shot with a bottle of white wine - Evan Swigart.jpg — Evan Swigart from Chicago, USA. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+[Original file](https://commons.wikimedia.org/wiki/File:Glass_of_White_Wine_shot_with_a_bottle_of_white_wine_-_Evan_Swigart.jpg). Resized and converted to WebP; cropped in the UI.
+
+### red.webp
+
+Wine being poured into a glass.jpg — Fabio Ingrosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+[Original file](https://commons.wikimedia.org/wiki/File:Wine_being_poured_into_a_glass.jpg). Resized and converted to WebP; cropped in the UI.
+
