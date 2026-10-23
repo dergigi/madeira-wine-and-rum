@@ -467,6 +467,15 @@
   ],
   "wineColors": [
     {
+      "name": "Rosé",
+      "photo": "rose",
+      "title": "Rosé auf Madeira",
+      "tagline": "Rosado · Stillwein aus Madeira",
+      "body": "Madeira macht auch Rosé. Atlantis Rosé wird aus Tinta Negra hergestellt. Beginne mit einem Glas zum Mittagessen und frag, wie trocken oder fruchtig der aktuelle Jahrgang schmeckt.",
+      "pairing": "Gegrillter Fisch · Meeresfrüchte · Sommersalate",
+      "source": "atlantis"
+    },
+    {
       "name": "Red",
       "photo": "red",
       "title": "Rotwein mit Inselwurzeln",
@@ -482,15 +491,6 @@
       "tagline": "Branco · Stillwein aus Madeira",
       "body": "Aus Verdelho entsteht auch stiller Weißwein. Atlantis Branco ist ein Beispiel dafür und zeigt eine andere Seite als aufgespriteter Verdelho Madeira Wine. Probiere ihn zu Fisch oder Meeresfrüchten.",
       "pairing": "Fisch · Meeresfrüchte · leichte Vorspeisen",
-      "source": "atlantis"
-    },
-    {
-      "name": "Rosé",
-      "photo": "rose",
-      "title": "Rosé auf Madeira",
-      "tagline": "Rosado · Stillwein aus Madeira",
-      "body": "Madeira macht auch Rosé. Atlantis Rosé wird aus Tinta Negra hergestellt. Beginne mit einem Glas zum Mittagessen und frag, wie trocken oder fruchtig der aktuelle Jahrgang schmeckt.",
-      "pairing": "Gegrillter Fisch · Meeresfrüchte · Sommersalate",
       "source": "atlantis"
     }
   ]

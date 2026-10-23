@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Order wine-colour cards and filters as Rosé, Red, White in both languages.
+
 - Make filter pills smaller while retaining 48dp touch targets; distinguish the secondary sweetness row with smaller outlined pills in both themes.
 
 ### Fixed

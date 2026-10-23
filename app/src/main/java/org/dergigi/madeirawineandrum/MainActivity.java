@@ -327,7 +327,7 @@ public final class MainActivity extends Activity {
     private void renderBottles() {
         JSONObject color=selectedWineColor();
         title(body,color==null?"Find your flavour":color.optString("title"),34);
-        chips(body,new String[]{"All","Red","White","Rosé","Madeira Wine","Rum"},wineType,value->{wineType=value;taste="All";positions.put("Bottles",0);render();});
+        chips(body,new String[]{"All","Rosé","Red","White","Madeira Wine","Rum"},wineType,value->{wineType=value;taste="All";positions.put("Bottles",0);render();});
         if(color!=null) {
             photoCard(body,color.optString("photo"),"MADEIRAN STILL WINE",tr(color.optString("name")),"About this style  →",235,()->wineColorDetails(color),false);
             caption(body,color.optString("pairing"));

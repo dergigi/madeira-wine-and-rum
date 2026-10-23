@@ -467,6 +467,15 @@
   ],
   "wineColors": [
     {
+      "name": "Rosé",
+      "photo": "rose",
+      "title": "Rosé, island style",
+      "tagline": "Rosado · Madeiran still wine",
+      "body": "Madeira makes rosé too. Atlantis Rosé uses Tinta Negra grapes. Start with a glass over lunch and ask how dry or fruity the current vintage tastes.",
+      "pairing": "Grilled fish · seafood · summer salads",
+      "source": "atlantis"
+    },
+    {
       "name": "Red",
       "photo": "red",
       "title": "Red, with island roots",
@@ -482,15 +491,6 @@
       "tagline": "Branco · Madeiran still wine",
       "body": "Verdelho also makes still white wine. Atlantis Branco is one example: a different expression from fortified Verdelho Madeira Wine. Try it with fish or shellfish.",
       "pairing": "Fish · shellfish · light starters",
-      "source": "atlantis"
-    },
-    {
-      "name": "Rosé",
-      "photo": "rose",
-      "title": "Rosé, island style",
-      "tagline": "Rosado · Madeiran still wine",
-      "body": "Madeira makes rosé too. Atlantis Rosé uses Tinta Negra grapes. Start with a glass over lunch and ask how dry or fruity the current vintage tastes.",
-      "pairing": "Grilled fish · seafood · summer salads",
       "source": "atlantis"
     }
   ]
