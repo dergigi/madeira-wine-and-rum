@@ -323,7 +323,12 @@ public final class MainActivity extends Activity {
             if(wineType.equals("Madeira Wine")&&!taste.equals("All")&&!taste.equals(bottle.optString("style")))continue;
             String image=bottlePhoto(bottle);
             String label=family.equals("Madeira Wine")?tr("FORTIFIED · ")+tr(bottle.optString("style")):family.equals("Rum")?"RUM":tr("STILL WINE · ")+tr(family);
-            photoCard(body,image,label.toUpperCase(Locale.ROOT),bottle.optString("title"),"Tasting notes & where to ask  →",240,()->openBottle(bottle),false);
+            if(color!=null&&image.equals(color.optString("photo"))) {
+                // Keep one hero photograph; the bottle remains a full-screen destination.
+                body.addView(destinationRow(bottle.optString("title"),()->openBottle(bottle)));
+            } else {
+                photoCard(body,image,label.toUpperCase(Locale.ROOT),bottle.optString("title"),"Tasting notes & where to ask  →",240,()->openBottle(bottle),false);
+            }
         }
         if(color!=null)body.addView(button("Explore a vineyard tasting →",()->openPlace(guide.place("barbusano"))));
     }

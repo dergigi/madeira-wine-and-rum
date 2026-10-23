@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Avoid repeating the wine-colour hero photograph in bottle recommendations on the rosé, red and white pages; use a compact bottle link instead.
+
 ## [0.6.0] - 2026-10-23
 
 ### Added
