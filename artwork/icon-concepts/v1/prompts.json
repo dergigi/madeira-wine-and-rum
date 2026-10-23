@@ -1,0 +1,55 @@
+{
+  "generator": "Built-in image_gen tool",
+  "concepts": [
+    {
+      "id": "01-paired-glasses",
+      "title": "Paired glasses",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. A wine tasting glass with a graceful stem, beside a short rum tumbler. Interlock the two silhouettes into a balanced compact emblem. Burgundy wine and amber rum, on a deep forest-green field. Bold cream outlines, minimal shapes."
+    },
+    {
+      "id": "02-bottle-duet",
+      "title": "Bottle duet",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. A slender wine bottle and a squat rum bottle lean slightly toward each other, their negative space suggesting a small tasting glass. Wine-red and amber bodies with cream caps against a deep green field. No labels on bottles."
+    },
+    {
+      "id": "03-shared-cask",
+      "title": "Shared cask",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. One bold circular wooden cask seen from its end, split subtly into wine burgundy and rum amber halves, with a tiny but clearly legible wineglass and rum tumbler cut out in cream. Strong broad geometry; only two cask bands, no wood grain."
+    },
+    {
+      "id": "04-liquid-ribbon",
+      "title": "Liquid ribbon",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. An elegant ribbon of burgundy wine curls into the bowl of a stemmed wineglass, interlocking with a broad amber ribbon shaped as a rum tumbler. Two very legible drinking silhouettes united in one compact geometric mark. Warm cream background, deep green fine accents. Bold, no thin strokes."
+    },
+    {
+      "id": "05-tasting-seal",
+      "title": "Tasting seal",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. A single simplified wine tasting glass and a rum tumbler nestled inside a bold oval seal. Three restrained colour blocks: deep wine red, amber gold, warm cream on forest green. An inviting clean silhouette, premium contemporary hospitality branding, no letters or heraldry."
+    },
+    {
+      "id": "06-mountain-pour",
+      "title": "Mountain pour",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. A stemmed wineglass containing burgundy wine and a short amber rum glass side by side, with the top line of their liquid forming a single continuous rugged Madeira mountain ridge. A large warm sunset disc behind the two glass bowls, deep green background. Sunset orange, burgundy, amber and cream. Clear drinking-glass silhouettes, no extra landscape clutter."
+    },
+    {
+      "id": "07-sunset-window",
+      "title": "Sunset window",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. One compact arched-window emblem framing two angular Madeira mountain peaks and a low coral sunset sun. At the base, a tiny yet bold burgundy stemmed wineglass and amber rum tumbler form the foreground. Deep green outer field, cream window edge, four flat colour blocks. The glass silhouettes must remain clear at small sizes."
+    },
+    {
+      "id": "08-island-toast",
+      "title": "Island toast",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. A wineglass and rum tumbler tilted together in a restrained toast. Their bowl silhouettes frame a central Madeira mountain peak in negative space, and one large amber sunset disk sits behind the summit. Burgundy and amber drinks, cream glass contours, dark green background. A single bold balanced emblem, not an illustration of a scene."
+    },
+    {
+      "id": "09-two-horizons",
+      "title": "Two horizons",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. Two adjoining geometric vessels: a stemmed wineglass on the left, a broad rum tumbler on the right. Inside both glasses a single continuous graphic landscape of Madeira mountain silhouettes and an oversized low sunset disk connects the design. Burgundy mountains, amber sunset, warm cream contours on forest green. Limit landscape to two peaks and one disk."
+    },
+    {
+      "id": "10-volcanic-sundown",
+      "title": "Volcanic sundown",
+      "prompt": "Use case: logo-brand. Create ONE standalone square Android app icon concept for an app named Madeira Wine and Rum. This is a clean, professionally designed symbol, not a presentation sheet, not a phone mockup. Flat vector-like editorial branding with exquisite proportions and crisp silhouette, generous breathing room, strong recognition at 48 pixels. Artwork centered within the middle 66 percent of a square full-bleed background, suitable for later Android adaptive icon masks. No text, no letters, no numbers, no gradients, no shadows, no photorealism, no 3D, no intricate detail, no watermark. Wine and rum must both be represented, wine as wine not champagne. A bold graphic circular amber sunset partly hidden by a dark Madeira mountain ridge. Below the ridge, its two slopes transform smoothly into a burgundy wineglass bowl with stem on the left and an amber rum tumbler on the right, making the landscape and the drinks one integrated logo. Cream background, dark forest green mountains. Clean distinctive geometry, not a generic mountain icon."
+    }
+  ]
+}
