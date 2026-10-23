@@ -1,0 +1,497 @@
+{
+  "checked": "2026-10-23",
+  "sources": {
+    "wine": {
+      "name": "Madeira Wine · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/madeira-wine/"
+    },
+    "ageing": {
+      "name": "Madeira Wine · H.M. Borges",
+      "url": "https://www.hmborges.com/en/vinhos-maderia/"
+    },
+    "canteiro": {
+      "name": "Weinkeller · Madeira Wine Company",
+      "url": "https://www.madeirawinecompany.com/en/about-us/facilities.html"
+    },
+    "rum": {
+      "name": "Rum da Madeira · IVBAM",
+      "url": "https://ivbam.madeira.gov.pt/bebidas-espirituosas/indicacao-geografica-rum-da-madeira"
+    },
+    "drinks": {
+      "name": "Traditionelle Getränke · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/typical-and-traditional-drinks/"
+    },
+    "route": {
+      "name": "Madeiras Weinroute · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/madeira-wines-route/"
+    },
+    "blandys": {
+      "name": "Blandy’s Wine Lodge · Erzeuger",
+      "url": "https://blandyswinelodge.com/"
+    },
+    "borges": {
+      "name": "Besuche · H.M. Borges",
+      "url": "https://www.hmborges.com/en/visitar/"
+    },
+    "hh": {
+      "name": "Besuche · Henriques & Henriques",
+      "url": "https://henriquesehenriques.pt/en/schedule-your-visit/"
+    },
+    "barbeito": {
+      "name": "Führungen · Barbeito",
+      "url": "https://www.vinhosbarbeito.com/images/Tour-Tasting-2026-en.pdf"
+    },
+    "barbeito_wine": {
+      "name": "Zehnjährige Weine · Barbeito",
+      "url": "https://www.vinhosbarbeito.com/en/our-wines/10-year-old.html"
+    },
+    "norte": {
+      "name": "Engenhos do Norte · Madeira Rum",
+      "url": "https://rumdamadeira.com/produtor/j-faria-filhos-lda-engenhos-do-norte/"
+    },
+    "calheta": {
+      "name": "Engenhos da Calheta · Madeira Rum",
+      "url": "https://rumdamadeira.com/en/producer/sociedade-dos-engenhos-da-calheta-lda/"
+    },
+    "hinton": {
+      "name": "William Hinton Experience · Erzeuger",
+      "url": "https://williamhinton.com/en/william-hinton-experience/"
+    },
+    "barbusano": {
+      "name": "Quinta do Barbusano · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/tourist-entertainment-associates/quinta-do-barbusano/"
+    },
+    "poncha": {
+      "name": "Taberna da Poncha · All About Portugal",
+      "url": "https://www.allaboutportugal.pt/pt/ribeira-brava/bares/taberna-da-poncha"
+    },
+    "community": {
+      "name": "Poncha-Fest · Casa do Povo da Serra de Água",
+      "url": "https://cp-serradeagua.pt/organizamos/mostra-regional-do-mel-e-da-poncha-2026"
+    },
+    "oliveiras": {
+      "name": "Erzeugerverzeichnis · Visit Madeira",
+      "url": "https://dev.visitmadeira.web.blissapplications.com/media/fjbbhsn3/produtores.pdf"
+    },
+    "sercial": {
+      "name": "Sercial · Blandy’s Datenblatt",
+      "url": "https://blandys.com/wp-content/uploads/2025/02/Blandys-5YO-Sercial.pdf"
+    },
+    "still": {
+      "name": "Rot-, Weiß- und Roséweine · IVBAM",
+      "url": "https://ivbam.madeira.gov.pt/vinhos-tranquilos-e-espumante/tintos-brancos-e-roses"
+    },
+    "atlantis": {
+      "name": "Atlantis-Tischweine · Madeira Wine Company",
+      "url": "https://madeirawinecompany.com/en/wine/atlantis-wine.html"
+    }
+  },
+  "articles": [
+    {
+      "id": "wine",
+      "eyebrow": "MADEIRA WINE",
+      "title": "Wein, den Wärme prägt",
+      "body": "Madeira Wine ist ein aufgespriteter Wein: Bei der Herstellung wird Traubenbrand zugesetzt. Seine lebendige Säure trägt Aromen von trocken und zitrusfrisch bis üppig und süß. Anders als bei den meisten Tischweinen gehören gezielte Erwärmung und oxidative Reifung zu seinem Charakter.",
+      "source": "wine"
+    },
+    {
+      "id": "ageing",
+      "eyebrow": "DIE REIFUNG",
+      "title": "Zwei Wege zur Reife",
+      "body": "Bei der Estufagem wird der Wein unter kontrollierten Bedingungen in Tanks erwärmt. Beim Canteiro reift er über Jahre in Fässern in warmen Kellern. Bei Blandy’s dienen dafür noch immer die Dachgeschosse. Vergleiche einen jüngeren Verschnitt mit einem im Canteiro gereiften Wein: So wird der Unterschied greifbar.",
+      "source": "canteiro"
+    },
+    {
+      "id": "styles",
+      "eyebrow": "DEIN GESCHMACK",
+      "title": "Von trocken bis süß",
+      "body": "Sercial → trocken. Verdelho → halbtrocken. Boal (auch Bual) → halbsüß. Malvasia (auf Etiketten oft Malmsey) → süß. Das ist eine hilfreiche Reihenfolge für eine Verkostung, keine Rangliste. Tinta Negra kann verschiedene Süßegrade ergeben. Ein Blick aufs Etikett lohnt sich.",
+      "source": "ageing"
+    },
+    {
+      "id": "labels",
+      "eyebrow": "DAS ETIKETT",
+      "title": "Alter ist ein Hinweis auf den Stil",
+      "body": "Bei einem Madeira-Verschnitt bezeichnet „10 Jahre“ oder „15 Jahre“ eine Alterskategorie, keinen Erntejahrgang. Ein Wein aus einer einzelnen, angegebenen Ernte ist etwas anderes. Frasqueira steht für mindestens 20 Jahre Holzreifung. Probiere erst eine Auswahl, bevor du viel Geld für eine alte Flasche ausgibst.",
+      "source": "ageing"
+    },
+    {
+      "id": "rum",
+      "eyebrow": "MADEIRA-RUM",
+      "title": "Vom Zuckerrohr ins Glas",
+      "body": "Rum da Madeira ist landwirtschaftlicher Rum: Er entsteht aus vergorenem, frischem Zuckerrohrsaft. Viele andere Rums werden aus Melasse hergestellt. Ungereifter Rum zeigt den Charakter des Zuckerrohrs; Eichenfassreifung bringt weitere Aromen hinzu. Achte auf „Rum da Madeira“ oder „Rum Agrícola da Madeira“ auf dem Etikett.",
+      "source": "rum"
+    },
+    {
+      "id": "rum_styles",
+      "eyebrow": "WAS BESTELLEN?",
+      "title": "Weiß, gereift oder als Poncha",
+      "body": "Naturbelassener, ungereifter Madeira-Rum ist die Basis für Poncha. Vergleiche ihn zum puren Genießen mit einem gereiften Rum. „Velho“ bedeutet mindestens drei Jahre im Eichenfass. Ein sechsjähriger Rum ist ein guter nächster Schritt. Unsere Auswahl gibt Anregungen zum Probieren; der älteste ist nicht automatisch der beste.",
+      "source": "rum"
+    },
+    {
+      "id": "local",
+      "eyebrow": "GETRÄNKE DER INSEL",
+      "title": "Eine frisch gemachte Poncha",
+      "body": "Poncha gehört zu Madeiras Trinkkultur: Zuckerrohrbrand, Zitrusfrüchte und etwas zum Süßen. Die Rezepte unterscheiden sich von Bar zu Bar. Frag nach dem verwendeten Rum und den Zutaten der regionalen oder Pescador-Variante. Ein kleines, frisch zubereitetes Glas ist ein schöner Einstieg.",
+      "source": "drinks"
+    },
+    {
+      "id": "nikita",
+      "eyebrow": "RUND UM DEN HAFEN",
+      "title": "Mehr als Wein",
+      "body": "Câmara de Lobos ist für Nikita bekannt, ein Getränk aus Ananas und Eis, das auch Bier enthalten kann. Es gibt alkoholfreie Varianten – frag bei der Bestellung danach. Nach dem Weinkellerbesuch bietet sich der Hafen zum Mittagessen und Schlendern an. Organisiere die Heimfahrt vorher.",
+      "source": "drinks"
+    },
+    {
+      "id": "tips",
+      "eyebrow": "WEITER ENTDECKEN",
+      "title": "Bei Erzeugern und in den Dörfern",
+      "body": "Für einen weiteren Weinkeller in Funchal buche bei H.M. Borges. Die Mühle in Calheta erzählt Zuckerrohrgeschichte abseits der großen Weinverkostungen. Serra de Água hat ein Poncha-und-Honig-Fest und traditionsreiche Bars. Diese Tipps beruhen auf dokumentierten Traditionen und redaktioneller Auswahl, nicht auf einer Umfrage unter allen Einheimischen.",
+      "source": "community"
+    },
+    {
+      "id": "contrast",
+      "eyebrow": "GUT ZU WISSEN",
+      "title": "Madeira macht auch Tischwein",
+      "body": "Bei Quinta do Barbusano kannst du im Weinberg Madeiras Stillweine kennenlernen. Sie unterscheiden sich vom aufgespriteten Madeira Wine. Dieser Vergleich macht São Vicente zu einem lohnenden Teil der Woche, besonders wenn du neben Weinkellern auch die Weinlandschaft erleben möchtest.",
+      "source": "barbusano"
+    }
+  ],
+  "places": [
+    {
+      "id": "blandys",
+      "name": "Blandy’s Wine Lodge",
+      "type": "Wine",
+      "area": "Funchal",
+      "lat": 32.6477,
+      "lon": -16.9105,
+      "address": "Avenida Arriaga, Funchal",
+      "why": "Ein guter Einstieg in Madeira Wine, mitten im historischen Stadtzentrum.",
+      "order": "Bitte um einen Vergleich von trocken bis süß und finde deinen Lieblingsstil.",
+      "planning": "Prüfe vor dem Besuch die aktuellen Führungen und Verkostungen des Erzeugers.",
+      "source": "route",
+      "booking": "blandys"
+    },
+    {
+      "id": "borges",
+      "name": "H.M. Borges",
+      "type": "Wine",
+      "area": "Funchal",
+      "lat": 32.6532,
+      "lon": -16.9088,
+      "address": "Rua 31 de Janeiro 83, Funchal",
+      "why": "Ein weiterer historischer Weinkeller in Funchal mit geführten Verkostungen.",
+      "order": "Frag nach dem Unterschied zwischen einem jüngeren Verschnitt und einem Wein aus einer einzelnen Ernte.",
+      "planning": "Buche im Voraus. Der Erzeuger bietet Besuche an Werktagen mit einer Mittagspause an.",
+      "source": "borges",
+      "booking": "borges"
+    },
+    {
+      "id": "oliveiras",
+      "name": "D’Oliveiras",
+      "type": "Wine",
+      "area": "Funchal",
+      "lat": 32.6507,
+      "lon": -16.9087,
+      "address": "Rua dos Ferreiros 107, Funchal",
+      "why": "Ein traditionsreicher Erzeuger mit Verkostung und Verkauf in der Altstadt.",
+      "order": "Frag, welche älteren Weine du probieren kannst und was ein Glas kostet.",
+      "planning": "Bestätige vor dem Besuch Öffnungszeiten und Ablauf der Verkostung.",
+      "source": "oliveiras",
+      "booking": "oliveiras"
+    },
+    {
+      "id": "hh",
+      "name": "Henriques & Henriques",
+      "type": "Wine",
+      "area": "Câmara de Lobos",
+      "lat": 32.6506,
+      "lon": -16.9767,
+      "address": "Avenida da Autonomia 10, Câmara de Lobos",
+      "why": "Ein Weinkellerbesuch, der sich mit einem Spaziergang am Fischerhafen verbinden lässt.",
+      "order": "Vergleiche die Süßegrade der jüngeren Weine, bevor du eine ältere Flasche auswählst.",
+      "planning": "Plane einen Werktag ein. Gruppen ab sechs Personen müssen reservieren; prüfe Feiertagsschließungen.",
+      "source": "hh",
+      "booking": "hh"
+    },
+    {
+      "id": "barbeito",
+      "name": "Vinhos Barbeito",
+      "type": "Wine",
+      "area": "Höhen von Câmara de Lobos",
+      "lat": 32.675,
+      "lon": -16.986,
+      "address": "Estrada da Ribeira Garcia, Parque Empresarial de Câmara de Lobos, Lote 8",
+      "why": "Ein Erzeugerbesuch für alle, die Madeira Wine auch außerhalb der Stadtkeller kennenlernen möchten.",
+      "order": "Frag nach dem zehnjährigen Sercial, wenn du trockenere Weine magst.",
+      "planning": "Vereinbare den Besuch vorher. Der Betrieb liegt oberhalb des Hafens und ist ein eigener Stopp, getrennt von H&H.",
+      "source": "barbeito_wine",
+      "booking": "barbeito"
+    },
+    {
+      "id": "calheta",
+      "name": "Engenhos da Calheta",
+      "type": "Rum",
+      "area": "Calheta",
+      "lat": 32.7224,
+      "lon": -17.1797,
+      "address": "Avenida Dom Manuel I 29, Calheta",
+      "why": "Eine historische Mühle mit Museum, Rum und Zuckerrohrprodukten.",
+      "order": "Vergleiche naturbelassenen mit gereiftem Rum. Halte auch nach Bolo de Mel Ausschau.",
+      "planning": "Zuckerrohr wird saisonal gepresst, meist nach Ostern. Museum und Laden sind auch außerhalb der Produktionszeit zugänglich; prüfe die Öffnungszeiten.",
+      "source": "calheta",
+      "booking": "calheta"
+    },
+    {
+      "id": "hinton",
+      "name": "William Hinton · Engenho Novo",
+      "type": "Rum",
+      "area": "Estreito da Calheta",
+      "lat": 32.737,
+      "lon": -17.19,
+      "address": "Parque Empresarial da Calheta, Lote 30/53",
+      "why": "Eine Führung durch Brennerei und Fasslager mit verschiedenen Rumverkostungen nach Voranmeldung.",
+      "order": "Probiere den sechsjährigen Rum. Eine Nachreifung im Madeira-Weinfass verbindet Wein und Rum.",
+      "planning": "Alle Führungen müssen vorab gebucht werden. Der Betrieb liegt an einem anderen Standort als die historische Mühle in Calheta.",
+      "source": "hinton",
+      "booking": "hinton"
+    },
+    {
+      "id": "norte",
+      "name": "Engenhos do Norte",
+      "type": "Rum",
+      "area": "Porto da Cruz",
+      "lat": 32.7743,
+      "lon": -16.8281,
+      "address": "Rua do Cais 6, Porto da Cruz",
+      "why": "Eine historische Zuckerrohrbrennerei direkt am Meer. Ein guter erster Halt, um den Rum der Insel kennenzulernen.",
+      "order": "Frag nach Rum 970 Reserva 6 Anos zum Vergleich mit einem ungereiften Rum.",
+      "planning": "Prüfe Besuche und Verkostungsangebote. Außerhalb der Zuckerrohrsaison laufen die Maschinen nicht unbedingt.",
+      "source": "norte",
+      "booking": "norte"
+    },
+    {
+      "id": "barbusano",
+      "name": "Quinta do Barbusano",
+      "type": "Wine",
+      "area": "São Vicente",
+      "lat": 32.79981,
+      "lon": -17.03489,
+      "address": "Caminho Agrícola do Barbusano 26, São Vicente",
+      "why": "Weinberge und madeirische Stillweine über dem Tal an der Nordküste.",
+      "order": "Probiere die Stillweine und vergleiche sie mit den aufgespriteten Weinen aus Funchal.",
+      "planning": "Buche die Weinbergverkostung. Ein Mittagessen bei Bedarf gesondert anfragen. Hier geht es um Tischwein, nicht um aufgespriteten Madeira Wine.",
+      "source": "barbusano",
+      "booking": "barbusano"
+    },
+    {
+      "id": "poncha",
+      "name": "Taberna da Poncha",
+      "type": "Local",
+      "area": "Serra de Água",
+      "lat": 32.714,
+      "lon": -17.029,
+      "address": "Taberna da Poncha, ER104, Serra de Água, Madeira",
+      "why": "Eine bekannte Poncha-Bar an der Talstraße. Eine lokale Tradition, die auch viele Besucher genießen.",
+      "order": "Bestelle eine frisch gemachte regionale Poncha und frag, welcher Rum verwendet wird.",
+      "planning": "Organisiere ein Taxi oder einen Fahrer. Aktuelle Öffnungszeiten und den genauen Eingang findest du im verlinkten Eintrag.",
+      "source": "poncha",
+      "booking": "poncha"
+    }
+  ],
+  "bottles": [
+    {
+      "style": "Dry",
+      "title": "Barbeito Sercial, 10 Jahre",
+      "body": "Für alle, die die trockene Seite von Madeira Wine kennenlernen möchten. Probiere ihn vor dem Essen und vergleiche seine Säure mit einem süßeren Stil.",
+      "tip": "Ein konkreter Vorschlag zum Einstieg, kein allgemeiner Sieger.",
+      "place": "barbeito",
+      "source": "barbeito_wine",
+      "family": "Madeira Wine"
+    },
+    {
+      "style": "Balanced",
+      "title": "Ein zehnjähriger Verdelho",
+      "body": "Ein Einstieg in halbtrockenen Madeira Wine. Bitte um Verdelho neben Sercial, um deine bevorzugte Balance zu finden.",
+      "tip": "Wähle den Erzeuger nach der Verkostung.",
+      "place": "hh",
+      "source": "wine",
+      "family": "Madeira Wine"
+    },
+    {
+      "style": "Rich",
+      "title": "Boal oder Malmsey, 10 Jahre",
+      "body": "Boal ist halbsüß; Malmsey steht für den üppigen, süßen Stil. Frag bei Blandy’s nach den aktuell angebotenen Flaschen und offenen Weinen.",
+      "tip": "Wähle als Geschenk den Geschmack des Empfängers statt des höchsten Alters.",
+      "place": "blandys",
+      "source": "wine",
+      "family": "Madeira Wine"
+    },
+    {
+      "style": "Special",
+      "title": "Frasqueira oder Terrantez probieren",
+      "body": "Für etwas Besonderes frag bei H.M. Borges nach verfügbaren Frasqueiras. Terrantez ist eine seltenere Rebsorte, die du bei Gelegenheit probieren kannst. Kläre den Preis pro Glas vor der Bestellung.",
+      "tip": "Die Verfügbarkeit wechselt; dies ist eine Anregung für die Verkostung, keine Bestandszusage.",
+      "place": "borges",
+      "source": "ageing",
+      "family": "Madeira Wine"
+    },
+    {
+      "style": "Rum",
+      "title": "Rum 970 Reserva 6 Anos",
+      "body": "Unser erster Vorschlag für gereiften Rum bei Engenhos do Norte. Er wurde international ausgezeichnet; entscheide nach deinem eigenen Geschmack über den Kauf.",
+      "tip": "Vergleiche ihn mit ungereiftem Rum, um den Einfluss der Eiche zu entdecken.",
+      "place": "norte",
+      "source": "norte",
+      "family": "Rum"
+    },
+    {
+      "style": "Rum",
+      "title": "William Hinton 6 Years",
+      "body": "Ein weiterer gereifter Rum aus dem Verkostungsangebot des Erzeugers. Vergleiche ihn an einem anderen Tag mit dem 970.",
+      "tip": "Falls verfügbar, probiere eine Nachreifung im Madeira-Weinfass als Verbindung beider Themen.",
+      "place": "hinton",
+      "source": "hinton",
+      "family": "Rum"
+    },
+    {
+      "style": "Rum",
+      "title": "Naturbelassener Madeira-Rum für Poncha",
+      "body": "Frag in der Mühle nach naturbelassenem Rum für Poncha. Achte auf die geschützte Herkunft Madeira auf dem Etikett und erkundige dich nach dem Alkoholgehalt.",
+      "tip": "Für deine erste selbst gemachte Poncha brauchst du keinen teuren, gereiften Rum.",
+      "place": "calheta",
+      "source": "rum",
+      "family": "Rum"
+    },
+    {
+      "style": "Red",
+      "family": "Red",
+      "photo": "red",
+      "title": "Atlantis Tinto",
+      "body": "Ein lokaler Rotwein zum Vergleich mit den Weiß- und Roséweinen der Insel.",
+      "tip": "Frag vor dem Besuch nach Jahrgang und Verfügbarkeit; weder Verkostung noch Flaschen sind garantiert.",
+      "place": "blandys",
+      "source": "atlantis"
+    },
+    {
+      "style": "White",
+      "family": "White",
+      "photo": "white",
+      "title": "Atlantis Verdelho Branco",
+      "body": "Wähle die Stillwein-Abfüllung Branco, wenn du weißen Tischwein suchst. Aufgespriteter Verdelho ist ein anderer Weinstil.",
+      "tip": "Frag vor dem Besuch nach Jahrgang und Verfügbarkeit; weder Verkostung noch Flaschen sind garantiert.",
+      "place": "blandys",
+      "source": "atlantis"
+    },
+    {
+      "style": "Rosé",
+      "family": "Rosé",
+      "photo": "rose",
+      "title": "Atlantis Rosé",
+      "body": "Ein Rosé aus Madeira, nach dem du auf Weinkarten und in lokalen Weinläden Ausschau halten kannst.",
+      "tip": "Frag vor dem Besuch nach Jahrgang und Verfügbarkeit; weder Verkostung noch Flaschen sind garantiert.",
+      "place": "blandys",
+      "source": "atlantis"
+    }
+  ],
+  "days": [
+    {
+      "title": "Erst einmal ankommen",
+      "area": "Funchal zu Fuß",
+      "body": "Beginne mit einer kleinen Verkostung bei Blandy’s. Erkunde das Zentrum, iss zu Mittag und halte fest, ob du trockene oder vollmundige Weine bevorzugst. Den größeren Flaschenkauf kannst du dir für später aufheben.",
+      "places": [
+        "blandys"
+      ],
+      "transport": "Im Zentrum geht vieles zu Fuß. Nimm bei Bedarf ein Taxi zur Unterkunft."
+    },
+    {
+      "title": "Wein und Fischerhafen",
+      "area": "Câmara de Lobos",
+      "body": "Besuche H&H an einem Werktag und verbringe danach Zeit am Hafen. Barbeito ist eine Alternative nach Voranmeldung für einen ausführlicheren Erzeugerbesuch. Du musst nicht beide an einem Tag unterbringen.",
+      "places": [
+        "hh",
+        "barbeito"
+      ],
+      "transport": "Buche einen Fahrer oder Taxis für die Betriebe am Hang; sie liegen nicht nebeneinander."
+    },
+    {
+      "title": "Zuckerrohr an der Südküste",
+      "area": "Calheta",
+      "body": "Erkunde die alte Mühle und ihr Museum. Wenn Rum dein Schwerpunkt ist, buche stattdessen William Hinton oder besuche die alte Mühle ohne Verkostung. Lass Zeit für die Küste.",
+      "places": [
+        "calheta",
+        "hinton"
+      ],
+      "transport": "Organisiere einen Fahrer für Verkostungen. Hinton und die historische Mühle sind verschiedene Standorte."
+    },
+    {
+      "title": "Reben über dem Tal",
+      "area": "São Vicente → Serra de Água",
+      "body": "Buche Barbusano für die Weinlandschaft und Stillweine. Auf dem Rückweg nach Süden bietet ein optionaler Poncha-Stopp in Serra de Água einen weiteren Einblick in die Trinkkultur der Insel.",
+      "places": [
+        "barbusano",
+        "poncha"
+      ],
+      "transport": "Organisiere für diese Route mit Verkostungen einen Fahrer. Nutze aktuelle Navigation für befahrbare Straßen."
+    },
+    {
+      "title": "Ein Rumtag an der Nordküste",
+      "area": "Porto da Cruz",
+      "body": "Besuche Engenhos do Norte und vergleiche weißen mit gereiftem Rum. Plane ein Mittagessen am Meer ein. Die Produktion ist saisonal; Zuckerrohrpressen sind nicht bei jedem Besuch zu sehen.",
+      "places": [
+        "norte"
+      ],
+      "transport": "Organisiere die Rückfahrt vor der Verkostung, statt erst zum Feierabend danach zu suchen."
+    },
+    {
+      "title": "Ein ruhigerer Tag",
+      "area": "Funchal oder eine Verkostungspause",
+      "body": "Halte diesen Tag für Wetteränderungen oder verpasste Reservierungen frei. Für einen weiteren Kellerbesuch wähle H.M. Borges oder D’Oliveiras. Oder gönn dir einen Tag ohne Verkostung und genieße die Insel.",
+      "places": [
+        "borges",
+        "oliveiras"
+      ],
+      "transport": "Die Stadtziele sind zu Fuß erreichbar. Wähle eine Verkostung, statt durch beide zu eilen."
+    },
+    {
+      "title": "Den Favoriten mitnehmen",
+      "area": "Zurück zu deinem Lieblingserzeuger",
+      "body": "Kehre dorthin zurück, wo dir der Wein am besten geschmeckt hat. Wähle einen Madeira Wine und nach Wunsch einen Rum. Prüfe vor dem Kauf Flaschengrößen, Verpackung und die Gepäckregeln deiner Fluggesellschaft.",
+      "places": [
+        "blandys",
+        "borges"
+      ],
+      "transport": "Plane Zeit zum Abholen und Verpacken ein. Dies sind Tagesvorschläge, keine festen Reservierungen."
+    }
+  ],
+  "wineColors": [
+    {
+      "name": "Red",
+      "photo": "red",
+      "title": "Rotwein mit Inselwurzeln",
+      "tagline": "Tinto · Stillwein aus Madeira",
+      "body": "Entdecke die roten Tischweine der Insel. Atlantis Tinto wird überwiegend aus Tinta Negra hergestellt. Probiere ein Glas zu gegrilltem Fleisch oder kurz gebratenem Thunfisch.",
+      "pairing": "Gegrilltes Fleisch · kurz gebratener Thunfisch",
+      "source": "atlantis"
+    },
+    {
+      "name": "White",
+      "photo": "white",
+      "title": "Weißwein mit Atlantikfrische",
+      "tagline": "Branco · Stillwein aus Madeira",
+      "body": "Aus Verdelho entsteht auch stiller Weißwein. Atlantis Branco ist ein Beispiel dafür und zeigt eine andere Seite als aufgespriteter Verdelho Madeira Wine. Probiere ihn zu Fisch oder Meeresfrüchten.",
+      "pairing": "Fisch · Meeresfrüchte · leichte Vorspeisen",
+      "source": "atlantis"
+    },
+    {
+      "name": "Rosé",
+      "photo": "rose",
+      "title": "Rosé auf Madeira",
+      "tagline": "Rosado · Stillwein aus Madeira",
+      "body": "Madeira macht auch Rosé. Atlantis Rosé wird aus Tinta Negra hergestellt. Beginne mit einem Glas zum Mittagessen und frag, wie trocken oder fruchtig der aktuelle Jahrgang schmeckt.",
+      "pairing": "Gegrillter Fisch · Meeresfrüchte · Sommersalate",
+      "source": "atlantis"
+    }
+  ]
+}

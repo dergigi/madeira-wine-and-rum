@@ -10,8 +10,8 @@ import java.util.*;
 final class Guide {
     final JSONObject data;
     final List<JSONObject> places;
-    Guide(Context context) throws IOException, JSONException {
-        data = new JSONObject(read(context, "guide.json"));
+    Guide(Context context, String language) throws IOException, JSONException {
+        data = new JSONObject(read(context, language.equals("de")?"guide-de.json":"guide.json"));
         places = list(data.getJSONArray("places"));
     }
     static String read(Context context, String name) throws IOException {

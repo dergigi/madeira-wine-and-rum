@@ -1,0 +1,183 @@
+{
+  "checked": "2026-10-23",
+  "photos": {
+    "coast": {
+      "file": "photos/coast.webp",
+      "caption": "Ponta de São Lourenço",
+      "title": "Caniçal (Madeira, Portugal), Ponta de São Lourenço -- 2025 -- 1340.jpg",
+      "artist": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Cani%C3%A7al_(Madeira,_Portugal),_Ponta_de_S%C3%A3o_Louren%C3%A7o_--_2025_--_1340.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "wine": {
+      "file": "photos/wine.webp",
+      "caption": "Madeira-Wine-Verkostung bei Blandy’s",
+      "title": "Blandy's madeira 014.jpg",
+      "artist": "Fernandes Paula c",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Blandy%27s_madeira_014.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "barrels": {
+      "file": "photos/barrels.webp",
+      "caption": "Blandy’s Wine Lodge",
+      "title": "Blandy's Wine Lodge - Funchal 01.jpg",
+      "artist": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Blandy%27s_Wine_Lodge_-_Funchal_01.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "rum": {
+      "file": "photos/rum.webp",
+      "caption": "Engenhos do Norte",
+      "title": "Destilerias Engenhos do Norte (4).jpg",
+      "artist": "Alberto-g-rovi",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Destilerias_Engenhos_do_Norte_(4).jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "rum_casks": {
+      "file": "photos/rum_casks.webp",
+      "caption": "Rumfässer bei Engenhos do Norte",
+      "title": "Destilerias Engenhos do Norte (2).jpg",
+      "artist": "Alberto-g-rovi",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Destilerias_Engenhos_do_Norte_(2).jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "harbour": {
+      "file": "photos/harbour.webp",
+      "caption": "Hafen von Câmara de Lobos",
+      "title": "Câmara de Lobos - Harbor 01.jpg",
+      "artist": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:C%C3%A2mara_de_Lobos_-_Harbor_01.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "vineyard": {
+      "file": "photos/vineyard.webp",
+      "caption": "Weinberge in São Vicente",
+      "title": "Viñedos, San Vicente, Madeira, Portugal, 2019-05-30, DD 62.jpg",
+      "artist": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos,_San_Vicente,_Madeira,_Portugal,_2019-05-30,_DD_62.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "calheta": {
+      "file": "photos/calheta.webp",
+      "caption": "Küste von Calheta",
+      "title": "Coast of Calheta, Madeira.jpg",
+      "artist": "Ricardo Liberato",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Coast_of_Calheta,_Madeira.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "poncha": {
+      "file": "photos/poncha.webp",
+      "caption": "Poncha",
+      "title": "Poncha.jpg",
+      "artist": "Mitsjol",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Poncha.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "borges": {
+      "file": "photos/borges.webp",
+      "caption": "H.M. Borges",
+      "title": "H. M. Borges, Sucrs, Lda..jpg",
+      "artist": "E125bb",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:H._M._Borges,_Sucrs,_Lda..jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "calheta_mill": {
+      "file": "photos/calheta_mill.webp",
+      "caption": "Engenho da Calheta",
+      "title": "Engenho da Calheta - Portugal (3533847656).jpg",
+      "artist": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Engenho_da_Calheta_-_Portugal_(3533847656).jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "bottle": {
+      "file": "photos/bottle.webp",
+      "caption": "Barbeito Verdelho, 10 Jahre",
+      "title": "Madeira Barbeito Verdelho Old Reserva - Bottle Glass.jpg",
+      "artist": "Origenes.Adamantius",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Madeira_Barbeito_Verdelho_Old_Reserva_-_Bottle_Glass.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "oliveiras": {
+      "file": "photos/oliveiras.webp",
+      "caption": "Verkostungsraum von D’Oliveiras",
+      "title": "D'Oliveiras tasting hall. Funchal, Madeira.jpg",
+      "artist": "Ввласенко",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:D%27Oliveiras_tasting_hall._Funchal,_Madeira.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "rose": {
+      "file": "photos/rose.webp",
+      "caption": "Roséwein · Symbolbild",
+      "title": "Rosé wine - July 2023 - Sarah Stierch 01-cropped.jpg",
+      "artist": "User:Missvain",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ros%C3%A9_wine_-_July_2023_-_Sarah_Stierch_01-cropped.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "white": {
+      "file": "photos/white.webp",
+      "caption": "Weißwein · Symbolbild",
+      "title": "Glass of White Wine shot with a bottle of white wine - Evan Swigart.jpg",
+      "artist": "Evan Swigart from Chicago, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Glass_of_White_Wine_shot_with_a_bottle_of_white_wine_-_Evan_Swigart.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    },
+    "red": {
+      "file": "photos/red.webp",
+      "caption": "Rotwein · Symbolbild",
+      "title": "Wine being poured into a glass.jpg",
+      "artist": "Fabio Ingrosso",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Wine_being_poured_into_a_glass.jpg",
+      "changes": "Verkleinert und in WebP umgewandelt; für die Darstellung in der App zugeschnitten."
+    }
+  },
+  "videos": [
+    {
+      "title": "Madeira Wine entdecken",
+      "subtitle": "Ein Gespräch mit Chris Blandy",
+      "creator": "Wine Dine Combine",
+      "photo": "barrels",
+      "url": "https://www.youtube.com/watch?v=shUdh88AlzQ",
+      "source": "https://winedinecombine.com/project/blandys-madeira/"
+    },
+    {
+      "title": "Vom Zuckerrohr zum Rum",
+      "subtitle": "Porto da Cruz & Engenhos do Norte",
+      "creator": "Eat & Walkabout",
+      "photo": "rum",
+      "url": "https://www.youtube.com/watch?v=SJR7-xzX6-o",
+      "source": "https://www.eatandwalkabout.com/en/portugal/virtual-experiences/porto-da-cruz-madeira-rum.html"
+    }
+  ]
+}
