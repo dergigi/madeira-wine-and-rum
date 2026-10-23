@@ -47,9 +47,9 @@ public final class MainActivity extends Activity {
         });
         LinearLayout masthead=new LinearLayout(this);masthead.setGravity(Gravity.CENTER_VERTICAL);
         masthead.setPadding(dp(22),dp(12),dp(16),dp(12));
-        LinearLayout wordmark=column();TextView brand=text("Madeira",25,INK);
+        LinearLayout wordmark=column();TextView brand=text("Madeira Wine",25,INK);
         brand.setTypeface(Typeface.create("serif",Typeface.NORMAL));wordmark.addView(brand);
-        TextView small=text("WINE & RUM",9,MUTED);small.setLetterSpacing(.2f);wordmark.addView(small);
+        TextView small=text("& RUM",9,MUTED);small.setLetterSpacing(.2f);wordmark.addView(small);
         masthead.addView(wordmark,new LinearLayout.LayoutParams(0,-2,1));
         Button info=button("i",this::about);info.setContentDescription("About, photography credits and sources");
         masthead.addView(info,new LinearLayout.LayoutParams(dp(48),dp(48)));root.addView(masthead);
