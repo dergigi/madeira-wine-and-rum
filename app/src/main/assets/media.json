@@ -160,6 +160,102 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "source": "https://commons.wikimedia.org/wiki/File:Wine_being_poured_into_a_glass.jpg",
       "changes": "Resized and converted to WebP; cropped to fit in the app."
+    },
+    "wine-atlantis-red": {
+      "file": "photos/wines/atlantis-red.webp",
+      "caption": "Atlantis Tinto",
+      "title": "Atlantis Tinto",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-atlantis-white": {
+      "file": "photos/wines/atlantis-white.webp",
+      "caption": "Atlantis Verdelho Branco",
+      "title": "Atlantis Verdelho Branco",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-atlantis-rose": {
+      "file": "photos/wines/atlantis-rose.webp",
+      "caption": "Atlantis Rosé",
+      "title": "Atlantis Rosé",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-barbusano-rose": {
+      "file": "photos/wines/barbusano-rose.webp",
+      "caption": "Barbusano Rosé",
+      "title": "Barbusano Rosé",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-ilha-rose": {
+      "file": "photos/wines/ilha-rose.webp",
+      "caption": "Ilha Rosé",
+      "title": "Ilha Rosé",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-villoes-rose": {
+      "file": "photos/wines/villoes-rose.webp",
+      "caption": "Rosé dos Villões",
+      "title": "Rosé dos Villões",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-whispering-angel": {
+      "file": "photos/wines/whispering-angel.webp",
+      "caption": "Whispering Angel",
+      "title": "Whispering Angel",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-freixo-rose": {
+      "file": "photos/wines/freixo-rose.webp",
+      "caption": "Herdade do Freixo Special Edition Rosé",
+      "title": "Herdade do Freixo Special Edition Rosé",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-romaneira-red": {
+      "file": "photos/wines/romaneira-red.webp",
+      "caption": "Quinta da Romaneira Apontador",
+      "title": "Quinta da Romaneira Apontador",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-riscal-red": {
+      "file": "photos/wines/riscal-red.webp",
+      "caption": "Marqués de Riscal Reserva",
+      "title": "Marqués de Riscal Reserva",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-vallado-white": {
+      "file": "photos/wines/vallado-white.webp",
+      "caption": "Quinta do Vallado Reserva Branco",
+      "title": "Quinta do Vallado Reserva Branco",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
+    },
+    "wine-cloudy-bay-white": {
+      "file": "photos/wines/cloudy-bay-white.webp",
+      "caption": "Cloudy Bay Sauvignon Blanc",
+      "title": "Cloudy Bay Sauvignon Blanc",
+      "generated": true,
+      "artist": "Created with OpenAI",
+      "changes": "AI-generated tasting illustration, not a photograph of this bottle or a venue. Resized and converted to WebP."
     }
   },
   "videos": [

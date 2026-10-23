@@ -1,9 +1,10 @@
-# Photography credits
+# Photography & artwork credits
 
 Photographs are bundled for offline use under their individual Creative Commons
 licenses. These licenses apply to the images, separately from the app’s MIT license.
-Images were resized and converted to WebP; the UI crops them to fit. No generated
-or synthetic venue photography is used. Video cards use thematic photographs,
+Images were resized and converted to WebP; the UI crops them to fit. Venue
+photographs are real; the individual still-wine tasting illustrations described
+below are generated artwork. Video cards use thematic photographs,
 not frames taken from the linked videos.
 
 ## coast.webp
@@ -99,3 +100,28 @@ Glass of White Wine shot with a bottle of white wine - Evan Swigart.jpg — Evan
 Wine being poured into a glass.jpg — Fabio Ingrosso. [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
 [Original file](https://commons.wikimedia.org/wiki/File:Wine_being_poured_into_a_glass.jpg). Resized and converted to WebP; cropped in the UI.
 
+
+## Individual wine tasting illustrations
+
+The twelve files in `app/src/main/assets/photos/wines/` were generated with
+OpenAI image generation on 23 October 2026. Each still wine has a distinct scene;
+the category heroes retain their separate photographs. These are illustrative
+still lifes, not photographs of the named products, wineries or restaurants.
+They contain no bottle labels or implied product packaging. The app identifies
+them as illustrations in both English and German image credits.
+
+Prompts and generation details: [wine-scenes/prompts.json](../artwork/wine-scenes/prompts.json).
+Final assets are resized to 1200 pixels wide and encoded as WebP for offline use.
+
+- `atlantis-red.webp`
+- `atlantis-white.webp`
+- `atlantis-rose.webp`
+- `barbusano-rose.webp`
+- `ilha-rose.webp`
+- `villoes-rose.webp`
+- `whispering-angel.webp`
+- `freixo-rose.webp`
+- `romaneira-red.webp`
+- `riscal-red.webp`
+- `vallado-white.webp`
+- `cloudy-bay-white.webp`

@@ -1,0 +1,67 @@
+{
+  "generator": "OpenAI image generation (image_gen)",
+  "date": "2026-10-23",
+  "purpose": "Illustrative tasting scenes; not actual product or venue photographs.",
+  "images": [
+    {
+      "id": "atlantis-red",
+      "title": "Atlantis Tinto",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: A single glass of ruby red wine beside a folded ivory napkin on a pale limestone table; grilled tuna on a small ceramic plate at the far edge, ocean blue background, close-up from low angle, bright coastal midday. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "atlantis-white",
+      "title": "Atlantis Verdelho Branco",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: A slender glass of pale white wine with a lemon peel and a small bowl of sea salt on a weathered blue table, sunlit coastal air, close-up side composition, clean airy blue and cream. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "atlantis-rose",
+      "title": "Atlantis Rosé",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: One elegant glass of pale coral rosé on a white stone parapet, blurred turquoise Atlantic beyond, linen napkin and soft sea breeze, bright summer sunlight, asymmetrical close-up. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "barbusano-rose",
+      "title": "Barbusano Rosé",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: One glass of deep pink rosé on a rustic dark wooden vineyard table, a fresh vine leaf in foreground, terraced green valley softly blurred in distance, warm afternoon light, earthy green and rose palette. Generic vineyard, not an identifiable real estate. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "ilha-rose",
+      "title": "Ilha Rosé",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: A glass of vivid pink rosé on dark volcanic basalt beside a pale ceramic dish, misty gray-blue sea in the background, overcast diffused natural light, sculptural minimalist composition with the glass on the right. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "villoes-rose",
+      "title": "Rosé dos Villões",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: Two differently shaped glasses of rosé, one small and one large, on honey-colored stone, soft cream linen and diagonal shadows in late-afternoon golden sunlight; tight intimate editorial still life, no coast or landscape. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "whispering-angel",
+      "title": "Whispering Angel",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: A single pale blush rosé glass on a light café table with a small lavender sprig and fresh peach at the edge, softly blurred terracotta wall and olive foliage, gentle morning light, elegant Mediterranean still life. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "freixo-rose",
+      "title": "Herdade do Freixo Special Edition Rosé",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: A glass of salmon-pink rosé beside a small unglazed terracotta bowl and folded ochre linen on a cork-textured table, dappled oak-leaf shadows, warm Portuguese countryside mood, overhead three-quarter view. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "romaneira-red",
+      "title": "Quinta da Romaneira Apontador",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: Two modest glasses of dark ruby red wine on a slate tasting counter with a few red grapes at one edge; warm cellar bokeh behind, rich burgundy and charcoal, close detail, no barrels in foreground. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "riscal-red",
+      "title": "Marqués de Riscal Reserva",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: One broad glass of garnet red wine next to a small dish of olives on a pale stone bar, ochre plaster and evening amber light in the background, clean Spanish tapas mood, low-angle still life. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "vallado-white",
+      "title": "Quinta do Vallado Reserva Branco",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: One glass of golden white wine on a walnut table beside a small pear and a simple pale ceramic bowl, softly blurred green hills behind, mellow late-afternoon light, quiet elegant country lunch. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    },
+    {
+      "id": "cloudy-bay-white",
+      "title": "Cloudy Bay Sauvignon Blanc",
+      "prompt": "Create one high-quality editorial still-life photograph-style illustration for an offline wine guide. Wide landscape composition, ideally 3:2. Scene: A crisp pale white wine glass on a cool gray stone table with fresh green lime and a tiny herb sprig, soft grassy background and silvery daylight, contemporary bright minimalist tasting scene. No bottles, no logos, no labels, no text, no typography, no people, no watermark. Natural glass geometry and reflections, tasteful restrained styling, realistic light, premium travel magazine art direction. Leave some quiet negative space around the main subject for card captions. This is an illustrative tasting scene, not a photograph of a real branded product or identifiable venue. Distinct composition, no collage."
+    }
+  ]
+}

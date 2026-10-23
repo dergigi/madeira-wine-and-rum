@@ -394,7 +394,7 @@
     {
       "style": "Red",
       "family": "Red",
-      "photo": "red",
+      "photo": "wine-atlantis-red",
       "title": "Atlantis Tinto",
       "body": "A local red to compare with the island’s white and rosé wines.",
       "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
@@ -405,7 +405,7 @@
     {
       "style": "White",
       "family": "White",
-      "photo": "white",
+      "photo": "wine-atlantis-white",
       "title": "Atlantis Verdelho Branco",
       "body": "Choose the still Branco bottling when you want white table wine; fortified Verdelho is a different style.",
       "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
@@ -416,7 +416,7 @@
     {
       "style": "Rosé",
       "family": "Rosé",
-      "photo": "rose",
+      "photo": "wine-atlantis-rose",
       "title": "Atlantis Rosé",
       "body": "A Madeira rosé to look for on wine lists and in local wine shops.",
       "tip": "Ask about the current vintage and availability before visiting; a tasting or bottle is not guaranteed.",
@@ -432,7 +432,7 @@
       "source": "barbusano_rose",
       "style": "Rosé",
       "family": "Rosé",
-      "photo": "rose",
+      "photo": "wine-barbusano-rose",
       "scope": "Made on Madeira"
     },
     {
@@ -443,7 +443,7 @@
       "enquiry": "ilha",
       "style": "Rosé",
       "family": "Rosé",
-      "photo": "rose",
+      "photo": "wine-ilha-rose",
       "scope": "Made on Madeira"
     },
     {
@@ -457,13 +457,13 @@
       "mapsQuery": "William Restaurant, Reid’s Palace, Estrada Monumental 139, Funchal, Madeira, Portugal",
       "style": "Rosé",
       "family": "Rosé",
-      "photo": "rose",
+      "photo": "wine-villoes-rose",
       "scope": "Made on Madeira"
     },
     {
       "style": "Rosé",
       "family": "Rosé",
-      "photo": "rose",
+      "photo": "wine-whispering-angel",
       "scope": "Available on Madeira",
       "title": "Whispering Angel",
       "origin": "Côtes de Provence, France",
@@ -478,7 +478,7 @@
     {
       "style": "Rosé",
       "family": "Rosé",
-      "photo": "rose",
+      "photo": "wine-freixo-rose",
       "scope": "Available on Madeira",
       "title": "Herdade do Freixo Special Edition Rosé",
       "origin": "Alentejo, Portugal",
@@ -493,7 +493,7 @@
     {
       "style": "Red",
       "family": "Red",
-      "photo": "red",
+      "photo": "wine-romaneira-red",
       "scope": "Available on Madeira",
       "title": "Quinta da Romaneira Apontador",
       "origin": "Douro, Portugal",
@@ -508,7 +508,7 @@
     {
       "style": "Red",
       "family": "Red",
-      "photo": "red",
+      "photo": "wine-riscal-red",
       "scope": "Available on Madeira",
       "title": "Marqués de Riscal Reserva",
       "origin": "Rioja, Spain",
@@ -523,7 +523,7 @@
     {
       "style": "White",
       "family": "White",
-      "photo": "white",
+      "photo": "wine-vallado-white",
       "scope": "Available on Madeira",
       "title": "Quinta do Vallado Reserva Branco",
       "origin": "Douro, Portugal",
@@ -538,7 +538,7 @@
     {
       "style": "White",
       "family": "White",
-      "photo": "white",
+      "photo": "wine-cloudy-bay-white",
       "scope": "Available on Madeira",
       "title": "Cloudy Bay Sauvignon Blanc",
       "origin": "Marlborough, New Zealand",

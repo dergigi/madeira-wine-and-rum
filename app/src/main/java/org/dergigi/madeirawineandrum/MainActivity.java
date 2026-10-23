@@ -450,7 +450,7 @@ public final class MainActivity extends Activity {
     private void detailPhoto(LinearLayout parent,String key) {
         photoCard(parent,key,"","","",220,null,false);
         JSONObject photo=media.optJSONObject("photos").optJSONObject(key);
-        parent.addView(link(photo.optString("caption")+" · © "+photo.optString("artist"),()->photoCredit(key)));
+        parent.addView(link(photo.optString("caption")+" · "+(photo.optBoolean("generated")?tr("Illustrative artwork"):"© "+photo.optString("artist")),()->photoCredit(key)));
     }
     private String bottlePhoto(JSONObject bottle) {
         String image=bottle.optString("photo");
@@ -507,11 +507,13 @@ public final class MainActivity extends Activity {
     private void renderPhotoCredit(String key) {
         JSONObject p=media.optJSONObject("photos").optJSONObject(key);LinearLayout c=detail();title(c,p.optString("caption"),26);
         para(c,p.optString("artist"));caption(c,p.optString("changes"));
-        c.addView(button("Original photograph ↗",()->open(p.optString("source"))));c.addView(button(p.optString("license")+" ↗",()->open(p.optString("licenseUrl"))));
+        if(!p.optBoolean("generated")) {
+            c.addView(button("Original photograph ↗",()->open(p.optString("source"))));c.addView(button(p.optString("license")+" ↗",()->open(p.optString("licenseUrl"))));
+        }
     }
     private void photoCredits() { navigate("credits",""); }
     private void renderPhotoCredits() {
-        LinearLayout c=detail();title(c,"Behind the photographs",28);caption(c,"Real Madeira, photographed by the people credited here. Images retain their Creative Commons licenses.");
+        LinearLayout c=detail();title(c,"Photography & artwork",28);caption(c,"Photographs retain their Creative Commons licenses. Wine tasting illustrations are AI-generated artwork, not photographs of the named bottles or venues.");
         Iterator<String> keys=media.optJSONObject("photos").keys();while(keys.hasNext()){String key=keys.next();JSONObject p=media.optJSONObject("photos").optJSONObject(key);c.addView(destinationRow(p.optString("caption")+" · "+p.optString("artist"),()->photoCredit(key)));}
     }
     private void about() { navigate("about",""); }
