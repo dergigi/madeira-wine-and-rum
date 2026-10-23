@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Make filter pills smaller while retaining 48dp touch targets; distinguish the secondary sweetness row with smaller outlined pills in both themes.
+
 ### Fixed
 
 - Avoid repeating the wine-colour hero photograph in bottle recommendations on the rosé, red and white pages; use a compact bottle link instead.

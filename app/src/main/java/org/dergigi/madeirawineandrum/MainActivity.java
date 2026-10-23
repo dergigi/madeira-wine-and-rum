@@ -187,13 +187,34 @@ public final class MainActivity extends Activity {
         photoCard(body,"harbour","YOUR ISLAND ITINERARY","Seven days.\nA different flavour.","See the week  →",240,()->go("One week"),false);
     }
     private void chips(LinearLayout parent,String[] options,String selected,java.util.function.Consumer<String> action) {
+        chips(parent,options,selected,false,action);
+    }
+    private void chips(LinearLayout parent,String[] options,String selected,boolean secondary,java.util.function.Consumer<String> action) {
         HorizontalScrollView h=new HorizontalScrollView(this);h.setHorizontalScrollBarEnabled(false);
-        LinearLayout row=new LinearLayout(this);h.addView(row);parent.addView(h);
+        LinearLayout row=new LinearLayout(this);row.setGravity(Gravity.CENTER_VERTICAL);h.addView(row);parent.addView(h);
         for (String option:options) {
-            Button b=button(option,()->action.accept(option));boolean active=option.equals(selected);b.setSelected(active);
-            b.setTextColor(active?color(R.color.on_selected):INK);b.setBackground(background(active?INK:color(R.color.chip_surface),0));
-            LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-2,-2);lp.setMargins(0,dp(4),dp(8),dp(10));row.addView(b,lp);
-            if(active)h.post(()->h.smoothScrollTo(Math.max(0,b.getLeft()-dp(8)),0));
+            boolean active=option.equals(selected);
+            // Compact visible pills retain a 48dp touch target and room for larger system text.
+            FrameLayout target=new FrameLayout(this);target.setMinimumHeight(dp(48));target.setMinimumWidth(dp(48));
+            target.setPadding(0,dp(6),0,dp(6));target.setSelected(active);target.setFocusable(true);
+            target.setContentDescription(tr(option));target.setOnClickListener(v->action.accept(option));
+            target.setAccessibilityDelegate(new View.AccessibilityDelegate(){
+                @Override public void onInitializeAccessibilityNodeInfo(View host,android.view.accessibility.AccessibilityNodeInfo info){
+                    super.onInitializeAccessibilityNodeInfo(host,info);info.setClassName(Button.class.getName());
+                }
+            });
+            TextView label=text(option,secondary?12:13,secondary?INK:active?color(R.color.on_selected):INK);
+            label.setGravity(Gravity.CENTER);label.setSingleLine(true);label.setLineSpacing(0,1);
+            label.setPadding(dp(secondary?10:12),dp(secondary?4:6),dp(secondary?10:12),dp(secondary?4:6));
+            label.setMinHeight(dp(secondary?28:32));label.setTypeface(null,active?Typeface.BOLD:Typeface.NORMAL);
+            label.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO);label.setDuplicateParentStateEnabled(true);
+            int fill=secondary?CREAM:active?INK:color(R.color.chip_surface);
+            int border=secondary?(active?INK:color(R.color.outline)):0;
+            GradientDrawable shape=background(fill,border);shape.setCornerRadius(dp(50));
+            label.setBackground(new android.graphics.drawable.RippleDrawable(android.content.res.ColorStateList.valueOf(color(R.color.ripple)),shape,null));
+            target.addView(label,new FrameLayout.LayoutParams(-1,-2,Gravity.CENTER));
+            LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-2,-2);lp.rightMargin=dp(6);row.addView(target,lp);
+            if(active)h.post(()->h.smoothScrollTo(Math.max(0,target.getLeft()-dp(6)),0));
         }
     }
     private void renderMap() {
@@ -313,7 +334,7 @@ public final class MainActivity extends Activity {
             section(body,"A bottle to look for");
         } else if(wineType.equals("Madeira Wine")) {
             caption(body,"Fortified Madeira Wine · Choose by sweetness and style");
-            chips(body,new String[]{"All","Dry","Balanced","Rich","Special"},taste,value->{taste=value;positions.put("Bottles",0);render();});
+            chips(body,new String[]{"All","Dry","Balanced","Rich","Special"},taste,true,value->{taste=value;positions.put("Bottles",0);render();});
         } else if(wineType.equals("All")) {
             caption(body,"Red, white & rosé are still wines. Madeira Wine is fortified.");
         }
