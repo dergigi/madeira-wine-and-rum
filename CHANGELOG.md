@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-10-23
+
+### Added
+
+- English and German interface, guide articles, places, bottle notes, itinerary and photo captions.
+- Persistent flag-based language switch in the header, defaulting to the device language on first launch.
+- Full detail screens with header and Android Back navigation; preserve screen history and scroll positions across language changes and activity recreation.
+
+### Changed
+
+- Align bottom-navigation icons and labels in equal-height cells.
+- Replace pop-up dialogs and expandable snippets with dedicated pages and visible planning sections.
+- Refine typography, related-page links and map controls; add photographs to day, bottle and wine-colour detail screens.
+- Replace repeated photo-overlay buttons with credits beneath detail photographs and a complete credits page.
+
+
 ## [0.4.0] - 2026-10-23
 
 ### Added
@@ -67,7 +83,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Signed release builds and Zapstore publishing using the existing Feather signing setup.
 - Gradle wrapper, build workflow, and release documentation.
 
-[Unreleased]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.4.0...HEAD
+[Unreleased]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.4.0...v0.5.0
 [0.4.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.1.1...v0.2.0
