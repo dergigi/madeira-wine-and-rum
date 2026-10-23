@@ -23,6 +23,7 @@ public final class MainActivity extends Activity {
     private IslandMapView map;
     private String tab="Discover", category="All", query="", taste="All";
     private boolean savedOnly;
+    private String wineType="All";
     private final Set<String> saved=new HashSet<>();
     private final Map<String,Integer> positions=new HashMap<>();
     private int dp(float n) { return Math.round(n*getResources().getDisplayMetrics().density); }
@@ -35,6 +36,7 @@ public final class MainActivity extends Activity {
         if (state!=null) {
             tab=state.getString("tab","Discover");category=state.getString("category","All");
             query=state.getString("query","");taste=state.getString("taste","All");savedOnly=state.getBoolean("savedOnly");
+            wineType=state.getString("wineType","All");
             for (String name:new String[]{"Discover","Map","One week","Bottles"}) positions.put(name,state.getInt("scroll_"+name));
         }
         root=column();root.setBackgroundColor(CREAM);
@@ -60,7 +62,7 @@ public final class MainActivity extends Activity {
     }
     @Override protected void onSaveInstanceState(Bundle out) {
         positions.put(tab,scroll.getScrollY());
-        out.putString("tab",tab);out.putString("category",category);out.putString("query",query);out.putString("taste",taste);out.putBoolean("savedOnly",savedOnly);
+        out.putString("tab",tab);out.putString("category",category);out.putString("query",query);out.putString("taste",taste);out.putBoolean("savedOnly",savedOnly);out.putString("wineType",wineType);
         for (String name:positions.keySet()) out.putInt("scroll_"+name,positions.get(name));
         super.onSaveInstanceState(out);
     }
@@ -122,9 +124,14 @@ public final class MainActivity extends Activity {
     }
     private void renderDiscover() {
         photoCard(body,"coast","THE ATLANTIC, IN A GLASS","Madeira,\nby the glass.","Explore the island  →",350,()->go("Map"),false);
+        section(body,"Wine, by colour");
+        LinearLayout colors=rail(body);
+        for(JSONObject color:guide.entries("wineColors")) {
+            FrameLayout tile=photoCard(colors,color.optString("photo"),"MADEIRAN STILL WINE",color.optString("name"),"Explore this colour  →",225,()->openWineColor(color.optString("name")),false);railSize(tile,210);
+        }
         section(body,"What are you in the mood for?");
         LinearLayout rail=rail(body);
-        String[][] stories={{"wine","WINE","Madeira Wine","From dry to golden and rich"},{"rum","RUM","Cane. Cask. Coast.","Discover agricultural rum"},{"poncha","LOCAL LIFE","Meet the poncha","The island’s citrus ritual"}};
+        String[][] stories={{"wine","FORTIFIED WINE","Madeira Wine","From dry to golden and rich"},{"rum","RUM","Cane. Cask. Coast.","Discover agricultural rum"},{"poncha","LOCAL LIFE","Meet the poncha","The island’s citrus ritual"}};
         for(String[] story:stories) {
             FrameLayout tile=photoCard(rail,story[0],story[1],story[2],story[3],250,()->storyDialog(story[0]),false);railSize(tile,250);
         }
@@ -143,6 +150,7 @@ public final class MainActivity extends Activity {
             Button b=button(option,()->action.accept(option));boolean active=option.equals(selected);b.setSelected(active);
             b.setTextColor(active?Color.WHITE:INK);b.setBackground(background(active?INK:Color.rgb(231,235,222),0));
             LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-2,-2);lp.setMargins(0,dp(4),dp(8),dp(10));row.addView(b,lp);
+            if(active)h.post(()->h.smoothScrollTo(Math.max(0,b.getLeft()-dp(8)),0));
         }
     }
     private void renderMap() {
@@ -238,26 +246,53 @@ public final class MainActivity extends Activity {
         fold(c,"Before you go",()->{LinearLayout more=column();para(more,"Swap days to fit opening hours and bookings. Plan a driver or taxi for tasting days. H&H and Borges are weekday stops; book Hinton ahead.");return more;});
         showDetail(c);
     }
+    private void openWineColor(String color) {
+        wineType=color;taste="All";positions.put("Bottles",0);go("Bottles");
+    }
+    private JSONObject selectedWineColor() {
+        for(JSONObject color:guide.entries("wineColors"))if(wineType.equals(color.optString("name")))return color;
+        return null;
+    }
+    private void wineColorDetails(JSONObject color) {
+        LinearLayout c=detail();title(c,color.optString("title"),28);para(c,color.optString("body"));
+        caption(c,"These are still table wines. Fortified Madeira Wine has its own styles, from dry to sweet.");
+        source(c,color.optString("source"));source(c,"still");showDetail(c);
+    }
     private void renderBottles() {
-        title(body,"Find your flavour",34);
-        caption(body,"Dry & bright, rich & golden, or a little rum?");
-        chips(body,new String[]{"All","Dry","Balanced","Rich","Special","Rum"},taste,value->{taste=value;positions.put("Bottles",0);render();});
-        for(JSONObject b:guide.entries("bottles")) if(taste.equals("All")||taste.equals(b.optString("style"))) {
-            String image;
-            switch(b.optString("style")) {
+        JSONObject color=selectedWineColor();
+        title(body,color==null?"Find your flavour":color.optString("title"),34);
+        chips(body,new String[]{"All","Red","White","Rosé","Madeira Wine","Rum"},wineType,value->{wineType=value;taste="All";positions.put("Bottles",0);render();});
+        if(color!=null) {
+            photoCard(body,color.optString("photo"),"MADEIRAN STILL WINE",color.optString("name"),"About this style  →",235,()->wineColorDetails(color),false);
+            caption(body,color.optString("pairing"));
+            section(body,"A bottle to look for");
+        } else if(wineType.equals("Madeira Wine")) {
+            caption(body,"Fortified Madeira Wine · Choose by sweetness and style");
+            chips(body,new String[]{"All","Dry","Balanced","Rich","Special"},taste,value->{taste=value;positions.put("Bottles",0);render();});
+        } else if(wineType.equals("All")) {
+            caption(body,"Red, white & rosé are still wines. Madeira Wine is fortified.");
+        }
+        for(JSONObject bottle:guide.entries("bottles")) {
+            String family=bottle.optString("family");
+            if(!wineType.equals("All")&&!wineType.equals(family))continue;
+            if(wineType.equals("Madeira Wine")&&!taste.equals("All")&&!taste.equals(bottle.optString("style")))continue;
+            String image=bottle.optString("photo");
+            if(image.isEmpty())switch(bottle.optString("style")) {
                 case "Balanced":image="bottle";break;
                 case "Special":image="oliveiras";break;
-                case "Rum":image=b.optString("place").equals("norte")?"rum_casks":b.optString("place").equals("hinton")?"calheta":"poncha";break;
+                case "Rum":image=bottle.optString("place").equals("norte")?"rum_casks":bottle.optString("place").equals("hinton")?"calheta":"poncha";break;
                 case "Rich":image="barrels";break;
                 default:image="wine";
             }
-            photoCard(body,image,b.optString("style").toUpperCase(Locale.ROOT),b.optString("title"),"Tasting notes & where to try  →",240,()->bottleDialog(b),false);
+            String label=family.equals("Madeira Wine")?"FORTIFIED · "+bottle.optString("style"):family.equals("Rum")?"RUM":"STILL WINE · "+family;
+            photoCard(body,image,label.toUpperCase(Locale.ROOT),bottle.optString("title"),"Tasting notes & where to ask  →",240,()->bottleDialog(bottle),false);
         }
+        if(color!=null)body.addView(button("Explore a vineyard tasting →",()->placeDialog(guide.place("barbusano"))));
     }
     private void bottleDialog(JSONObject bottle) {
         LinearLayout c=detail();eyebrow(c,bottle.optString("style").toUpperCase(Locale.ROOT),MUTED);title(c,bottle.optString("title"),29);
         para(c,bottle.optString("body"));caption(c,bottle.optString("tip"));
-        c.addView(button("Where to try it →",()->placeDialog(guide.place(bottle.optString("place")))));
+        c.addView(button(bottle.optString("family").equals("Red")||bottle.optString("family").equals("White")||bottle.optString("family").equals("Rosé")?"Ask at Blandy’s Wine Lodge →":"Where to try it →",()->placeDialog(guide.place(bottle.optString("place")))));
         source(c,bottle.optString("source"));showDetail(c);
     }
     private void source(LinearLayout parent,String id) {
@@ -330,6 +365,7 @@ public final class MainActivity extends Activity {
             if(first){title(c,article.optString("title"),27);para(c,article.optString("body"));source(c,article.optString("source"));first=false;}
             else fold(c,article.optString("title"),()->{LinearLayout more=column();para(more,article.optString("body"));source(more,article.optString("source"));return more;});
         }
+        if(story.equals("wine"))fold(c,"Looking for red, white or rosé?",()->{LinearLayout more=column();para(more,"Those colours describe the island’s still table wines. Explore them in Taste; fortified Madeira Wine is grouped separately by style.");source(more,"still");return more;});
         Button explore=button(story.equals("poncha")?"Find a poncha stop →":"Find a tasting →",()->{});c.addView(explore);
         AlertDialog dialog=showDetail(c);
         explore.setOnClickListener(v->{dialog.dismiss();category=story.equals("wine")?"Wine":story.equals("rum")?"Rum":"Local";query="";savedOnly=false;positions.put("Map",0);go("Map");});
