@@ -1,0 +1,423 @@
+{
+  "checked": "2026-10-23",
+  "sources": {
+    "wine": {
+      "name": "Madeira Wine · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/madeira-wine/"
+    },
+    "ageing": {
+      "name": "Madeira Wine · H.M. Borges",
+      "url": "https://www.hmborges.com/en/vinhos-maderia/"
+    },
+    "canteiro": {
+      "name": "Cellars · Madeira Wine Company",
+      "url": "https://www.madeirawinecompany.com/en/about-us/facilities.html"
+    },
+    "rum": {
+      "name": "Rum da Madeira · IVBAM",
+      "url": "https://ivbam.madeira.gov.pt/bebidas-espirituosas/indicacao-geografica-rum-da-madeira"
+    },
+    "drinks": {
+      "name": "Traditional drinks · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/traditional-madeira-food/typical-and-traditional-drinks/"
+    },
+    "route": {
+      "name": "Madeira Wines Route · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/food-and-wine-enthusiasts/madeira-wines-route/"
+    },
+    "blandys": {
+      "name": "Blandy’s Wine Lodge · producer",
+      "url": "https://blandyswinelodge.com/"
+    },
+    "borges": {
+      "name": "Visits · H.M. Borges",
+      "url": "https://www.hmborges.com/en/visitar/"
+    },
+    "hh": {
+      "name": "Visits · Henriques & Henriques",
+      "url": "https://henriquesehenriques.pt/en/schedule-your-visit/"
+    },
+    "barbeito": {
+      "name": "Tours · Barbeito",
+      "url": "https://www.vinhosbarbeito.com/images/Tour-Tasting-2026-en.pdf"
+    },
+    "barbeito_wine": {
+      "name": "10-year-old wines · Barbeito",
+      "url": "https://www.vinhosbarbeito.com/en/our-wines/10-year-old.html"
+    },
+    "norte": {
+      "name": "Engenhos do Norte · Madeira Rum",
+      "url": "https://rumdamadeira.com/produtor/j-faria-filhos-lda-engenhos-do-norte/"
+    },
+    "calheta": {
+      "name": "Engenhos da Calheta · Madeira Rum",
+      "url": "https://rumdamadeira.com/en/producer/sociedade-dos-engenhos-da-calheta-lda/"
+    },
+    "hinton": {
+      "name": "William Hinton Experience · producer",
+      "url": "https://williamhinton.com/en/william-hinton-experience/"
+    },
+    "barbusano": {
+      "name": "Quinta do Barbusano · Visit Madeira",
+      "url": "https://visitmadeira.com/en/what-to-do/tourist-entertainment-associates/quinta-do-barbusano/"
+    },
+    "poncha": {
+      "name": "Taberna da Poncha · All About Portugal",
+      "url": "https://www.allaboutportugal.pt/pt/ribeira-brava/bares/taberna-da-poncha"
+    },
+    "community": {
+      "name": "Poncha festival · Casa do Povo da Serra de Água",
+      "url": "https://cp-serradeagua.pt/organizamos/mostra-regional-do-mel-e-da-poncha-2026"
+    },
+    "oliveiras": {
+      "name": "Producer directory · Visit Madeira",
+      "url": "https://dev.visitmadeira.web.blissapplications.com/media/fjbbhsn3/produtores.pdf"
+    },
+    "sercial": {
+      "name": "Sercial · Blandy’s technical sheet",
+      "url": "https://blandys.com/wp-content/uploads/2025/02/Blandys-5YO-Sercial.pdf"
+    }
+  },
+  "articles": [
+    {
+      "id": "wine",
+      "eyebrow": "MADEIRA WINE",
+      "title": "Wine shaped by warmth",
+      "body": "Madeira Wine is fortified: grape spirit is added during winemaking. Its bright acidity balances flavours that range from dry and citrusy to rich and sweet. Unlike most table wines, deliberate heating and oxidative ageing are part of its character.",
+      "source": "wine"
+    },
+    {
+      "id": "ageing",
+      "eyebrow": "HOW IT WORKS",
+      "title": "Two ways to age",
+      "body": "Estufagem warms wine in tanks under controlled conditions. Canteiro develops wine in casks in warm cellars over years. At Blandy’s, the lodge lofts are still used for this slow ageing. Ask to compare a younger blend with a canteiro-aged wine: the contrast is the lesson.",
+      "source": "canteiro"
+    },
+    {
+      "id": "styles",
+      "eyebrow": "FIND YOUR STYLE",
+      "title": "Taste from dry to sweet",
+      "body": "Sercial → dry. Verdelho → medium dry. Boal (also Bual) → medium sweet. Malvasia (often called Malmsey on labels) → sweet. These are a helpful tasting order, not a quality ranking. Tinta Negra can make several sweetness styles; read the label rather than dismissing the grape.",
+      "source": "ageing"
+    },
+    {
+      "id": "labels",
+      "eyebrow": "READ THE LABEL",
+      "title": "Age is a clue, not a score",
+      "body": "A 10- or 15-year indication on a Madeira blend describes its age category; it is not a harvest year. A dated single-harvest wine is different. Frasqueira means long wood ageing—at least 20 years. Start with a flight before spending on an old bottle.",
+      "source": "ageing"
+    },
+    {
+      "id": "rum",
+      "eyebrow": "MADEIRA RUM",
+      "title": "From cane juice to glass",
+      "body": "Rum da Madeira is agricultural rum: it comes from fermented fresh sugarcane juice. Many other rums use molasses. The unaged spirit lets you explore the cane character; oak-aged versions add another dimension. Look for “Rum da Madeira” or “Rum Agrícola da Madeira” on the label.",
+      "source": "rum"
+    },
+    {
+      "id": "rum_styles",
+      "eyebrow": "WHAT TO ORDER",
+      "title": "White, aged, or in poncha",
+      "body": "Natural, unaged Madeira rum is the base of poncha. For sipping, compare it with an aged rum. “Velho” denotes at least three years in oak. A six-year rum is a useful next step. Our bottle picks are starting points for a tasting, not a claim that the oldest is best.",
+      "source": "rum"
+    },
+    {
+      "id": "local",
+      "eyebrow": "LOCAL DRINKS",
+      "title": "Ask for a freshly made poncha",
+      "body": "Poncha is part of Madeiran drinking culture: sugarcane spirit, citrus and a sweetener, with recipes varying between bars. Ask which rum is used and what their regional or pescador version contains. A small fresh serving is a better introduction than ordering every flavour at once.",
+      "source": "drinks"
+    },
+    {
+      "id": "nikita",
+      "eyebrow": "AROUND THE HARBOUR",
+      "title": "There is more than wine",
+      "body": "Câmara de Lobos is associated with Nikita, a pineapple-and-ice-cream drink that can include beer. Alcohol-free versions also exist—ask when ordering. Use the harbour as a lunch and wandering stop after the wine lodge, with a ride home already arranged.",
+      "source": "drinks"
+    },
+    {
+      "id": "tips",
+      "eyebrow": "A LITTLE FURTHER",
+      "title": "Follow the producers and the villages",
+      "body": "For a different Funchal cellar, book H.M. Borges. For cane history, visit Calheta’s mill outside the busy tasting-lodge circuit. Serra de Água has a community poncha-and-honey festival and longstanding bars. These are documented traditions and editorial suggestions, not “secret” places or a survey of what every local drinks.",
+      "source": "community"
+    },
+    {
+      "id": "contrast",
+      "eyebrow": "AN IMPORTANT DISTINCTION",
+      "title": "Madeira also makes table wine",
+      "body": "A vineyard visit at Quinta do Barbusano is a chance to taste Madeiran still wines. They are different from fortified Madeira Wine. That contrast makes São Vicente a worthwhile part of the week, especially if you want a vineyard landscape as well as cellars.",
+      "source": "barbusano"
+    }
+  ],
+  "places": [
+    {
+      "id": "blandys",
+      "name": "Blandy’s Wine Lodge",
+      "type": "Wine",
+      "area": "Funchal",
+      "lat": 32.6477,
+      "lon": -16.9105,
+      "address": "Avenida Arriaga, Funchal",
+      "why": "Start here for an introduction to Madeira Wine in the historic city centre.",
+      "order": "Ask for a dry-to-sweet comparison, then choose your favourite style.",
+      "planning": "Check the producer’s current tour and tasting options before going.",
+      "source": "route",
+      "booking": "blandys"
+    },
+    {
+      "id": "borges",
+      "name": "H.M. Borges",
+      "type": "Wine",
+      "area": "Funchal",
+      "lat": 32.6532,
+      "lon": -16.9088,
+      "address": "Rua 31 de Janeiro 83, Funchal",
+      "why": "A second Funchal cellar with guided tastings and a historic setting.",
+      "order": "Ask how a younger blend compares with a single-harvest wine.",
+      "planning": "Book ahead. The producer lists weekday visits with a lunch closure.",
+      "source": "borges",
+      "booking": "borges"
+    },
+    {
+      "id": "oliveiras",
+      "name": "D’Oliveiras",
+      "type": "Wine",
+      "area": "Funchal",
+      "lat": 32.6507,
+      "lon": -16.9087,
+      "address": "Rua dos Ferreiros 107, Funchal",
+      "why": "An established producer’s tasting-and-sales stop in the old centre.",
+      "order": "Ask which older wines are available to taste and what each pour costs.",
+      "planning": "Confirm the tasting format and opening hours before visiting.",
+      "source": "oliveiras",
+      "booking": "oliveiras"
+    },
+    {
+      "id": "hh",
+      "name": "Henriques & Henriques",
+      "type": "Wine",
+      "area": "Câmara de Lobos",
+      "lat": 32.6506,
+      "lon": -16.9767,
+      "address": "Avenida da Autonomia 10, Câmara de Lobos",
+      "why": "A wine lodge to pair with a walk around the fishing harbour.",
+      "order": "Compare sweetness levels in the younger range before choosing an older bottle.",
+      "planning": "Schedule on a weekday. Groups of six or more must book; check holiday closures.",
+      "source": "hh",
+      "booking": "hh"
+    },
+    {
+      "id": "barbeito",
+      "name": "Vinhos Barbeito",
+      "type": "Wine",
+      "area": "Câmara de Lobos hills",
+      "lat": 32.675,
+      "lon": -16.986,
+      "address": "Estrada da Ribeira Garcia, Parque Empresarial de Câmara de Lobos, Lote 8",
+      "why": "A producer visit for a deeper look at Madeira Wine beyond the city lodges.",
+      "order": "Ask about the 10-year Sercial if you enjoy drier styles.",
+      "planning": "Arrange a visit first. This is uphill from the harbour, not the same stop as H&H.",
+      "source": "barbeito_wine",
+      "booking": "barbeito"
+    },
+    {
+      "id": "calheta",
+      "name": "Engenhos da Calheta",
+      "type": "Rum",
+      "area": "Calheta",
+      "lat": 32.7224,
+      "lon": -17.1797,
+      "address": "Avenida Dom Manuel I 29, Calheta",
+      "why": "A historic mill with a museum, rum and sugarcane products.",
+      "order": "Ask to compare natural rum with an aged expression. Look for bolo de mel too.",
+      "planning": "Crushing is seasonal, usually after Easter. The museum and shop can be visited outside the production season; confirm hours.",
+      "source": "calheta",
+      "booking": "calheta"
+    },
+    {
+      "id": "hinton",
+      "name": "William Hinton · Engenho Novo",
+      "type": "Rum",
+      "area": "Estreito da Calheta",
+      "lat": 32.737,
+      "lon": -17.19,
+      "address": "Parque Empresarial da Calheta, Lote 30/53",
+      "why": "A booked distillery and ageing-room tour with a choice of rum tastings.",
+      "order": "Try the six-year rum; ask about a Madeira-cask finish for a wine-and-rum connection.",
+      "planning": "All tours require advance booking. This is a separate site from the historic Calheta mill.",
+      "source": "hinton",
+      "booking": "hinton"
+    },
+    {
+      "id": "norte",
+      "name": "Engenhos do Norte",
+      "type": "Rum",
+      "area": "Porto da Cruz",
+      "lat": 32.7743,
+      "lon": -16.8281,
+      "address": "Rua do Cais 6, Porto da Cruz",
+      "why": "A historic sugarcane distillery beside the sea. A strong first stop for the rum side of the island.",
+      "order": "Ask for Rum 970 Reserva 6 Anos alongside an unaged rum.",
+      "planning": "Check visits and tasting availability. Do not assume the machinery is running outside cane season.",
+      "source": "norte",
+      "booking": "norte"
+    },
+    {
+      "id": "barbusano",
+      "name": "Quinta do Barbusano",
+      "type": "Wine",
+      "area": "São Vicente",
+      "lat": 32.79981,
+      "lon": -17.03489,
+      "address": "Caminho Agrícola do Barbusano 26, São Vicente",
+      "why": "Vineyard scenery and Madeiran still wines above the north-coast valley.",
+      "order": "Taste the still wines and compare them with the fortified wines from Funchal.",
+      "planning": "Book the vineyard tasting; request lunch separately if wanted. This stop is table wine, not fortified Madeira Wine.",
+      "source": "barbusano",
+      "booking": "barbusano"
+    },
+    {
+      "id": "poncha",
+      "name": "Taberna da Poncha",
+      "type": "Local",
+      "area": "Serra de Água",
+      "lat": 32.714,
+      "lon": -17.029,
+      "address": "Taberna da Poncha, ER104, Serra de Água, Madeira",
+      "why": "A well-known poncha stop on the valley road. A local tradition shared with plenty of visitors.",
+      "order": "Ask for a freshly made regional poncha and find out which rum goes into it.",
+      "planning": "Arrange a taxi or designated driver. Use the venue listing for current hours and the precise entrance.",
+      "source": "poncha",
+      "booking": "poncha"
+    }
+  ],
+  "bottles": [
+    {
+      "style": "Dry",
+      "title": "Barbeito 10-year Sercial",
+      "body": "For someone who wants the dry end of Madeira Wine. Try it before dinner and compare its acidity with a sweeter style.",
+      "tip": "A specific first tasting pick, not a universal winner.",
+      "place": "barbeito",
+      "source": "barbeito_wine"
+    },
+    {
+      "style": "Balanced",
+      "title": "A 10-year Verdelho",
+      "body": "Start here if you want medium-dry Madeira Wine. Ask the lodge to pour its Verdelho alongside Sercial so you can find your preferred balance.",
+      "tip": "Choose the producer after tasting.",
+      "place": "hh",
+      "source": "wine"
+    },
+    {
+      "style": "Rich",
+      "title": "A 10-year Boal or Malmsey",
+      "body": "Boal sits on the medium-sweet side; Malmsey is the classic rich, sweet direction. At Blandy’s, ask which bottles and pours are currently offered.",
+      "tip": "For a gift, buy the style the recipient likes rather than the oldest label.",
+      "place": "blandys",
+      "source": "wine"
+    },
+    {
+      "style": "Special",
+      "title": "A Frasqueira or Terrantez tasting",
+      "body": "For a splurge, ask H.M. Borges about its available Frasqueiras. Terrantez is a rarer grape to explore when offered. Check the price of a pour before ordering.",
+      "tip": "Availability varies; this is a tasting request, not a stock promise.",
+      "place": "borges",
+      "source": "ageing"
+    },
+    {
+      "style": "Rum",
+      "title": "Rum 970 Reserva 6 Anos",
+      "body": "Our first aged-rum comparison pick at Engenhos do Norte. It has a documented international award history; your own tasting should decide the purchase.",
+      "tip": "Compare with an unaged rum to understand what the oak changes.",
+      "place": "norte",
+      "source": "norte"
+    },
+    {
+      "style": "Rum",
+      "title": "William Hinton 6 Years",
+      "body": "A second aged-rum candidate, included in the producer’s tasting experiences. Compare it with the 970 on a different day.",
+      "tip": "If available, add a Madeira-cask finish to connect both sides of the trip.",
+      "place": "hinton",
+      "source": "hinton"
+    },
+    {
+      "style": "Rum",
+      "title": "Natural Madeira rum for poncha",
+      "body": "For mixing, ask the mill for a natural rum intended for poncha. Look for the protected Madeira origin on the label and ask about strength.",
+      "tip": "An expensive aged rum is not necessary for your first homemade poncha.",
+      "place": "calheta",
+      "source": "rum"
+    }
+  ],
+  "days": [
+    {
+      "title": "Get your bearings",
+      "area": "Funchal on foot",
+      "body": "Start with one introductory flight at Blandy’s. Walk the centre, have lunch and note whether you prefer dry or rich wines. Save the bigger bottle purchase for later.",
+      "places": [
+        "blandys"
+      ],
+      "transport": "Walk within the centre; take a taxi to your accommodation if needed."
+    },
+    {
+      "title": "Wine and the fishing harbour",
+      "area": "Câmara de Lobos",
+      "body": "Visit H&H on a weekday, then spend time around the harbour. Barbeito is an optional, pre-booked alternative for a more focused producer visit—do not squeeze in both just to tick boxes.",
+      "places": [
+        "hh",
+        "barbeito"
+      ],
+      "transport": "Book a driver or taxis for the hillside visits; the sites are not adjacent."
+    },
+    {
+      "title": "Sugarcane on the south coast",
+      "area": "Calheta",
+      "body": "Explore the old mill and its museum. If rum is your priority, book William Hinton instead, or keep the old mill to a non-tasting visit. Leave time for the coast.",
+      "places": [
+        "calheta",
+        "hinton"
+      ],
+      "transport": "Use a driver for tasting visits. Hinton and the historic mill are separate locations."
+    },
+    {
+      "title": "Vines above the valley",
+      "area": "São Vicente → Serra de Água",
+      "body": "Book Barbusano for vineyard scenery and still wines. On the return south, an optional poncha stop in Serra de Água gives you a different side of island drinking culture.",
+      "places": [
+        "barbusano",
+        "poncha"
+      ],
+      "transport": "With tastings on this route, arrange a driver. Let live navigation choose open roads."
+    },
+    {
+      "title": "The north-coast rum day",
+      "area": "Porto da Cruz",
+      "body": "Visit Engenhos do Norte and ask for a white-versus-aged comparison. Make time for a seafront lunch. Production is seasonal, so a visit does not guarantee seeing cane crushed.",
+      "places": [
+        "norte"
+      ],
+      "transport": "Arrange a return ride before tasting; do not rely on finding one at closing time."
+    },
+    {
+      "title": "A slower day",
+      "area": "Funchal or a day without tastings",
+      "body": "Keep this flexible for weather or a missed reservation. If you want one more cellar, choose H.M. Borges or D’Oliveiras. Otherwise take a day off tasting and enjoy the island.",
+      "places": [
+        "borges",
+        "oliveiras"
+      ],
+      "transport": "City stops can be combined on foot, but choose one tasting rather than rushing both."
+    },
+    {
+      "title": "Bring your favourite home",
+      "area": "Back to your chosen producer",
+      "body": "Return to the place that poured your favourite. Choose one Madeira Wine style and, if wanted, one rum. Check bottle sizes, packing and your airline’s baggage rules before buying.",
+      "places": [
+        "blandys",
+        "borges"
+      ],
+      "transport": "Leave time for collection and packing. These are suggested days, not fixed reservations."
+    }
+  ]
+}
