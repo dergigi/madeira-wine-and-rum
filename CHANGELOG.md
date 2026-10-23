@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-10-23
+
+### Added
+
+- Thirteen offline Madeira photographs with photographer credits and Creative Commons license links.
+- Curated YouTube links for a Chris Blandy conversation and an Engenhos do Norte rum tour.
+- Swipeable story and video cards, photo-led place cards and a visual seven-day itinerary.
+- Background image decoding and a bounded bitmap cache.
+
+### Changed
+
+- Replace long browsing-page paragraphs with photo cards, short captions and tap-to-read details.
+- Move supporting explanations and visit planning into expandable sections.
+- Refresh typography, spacing, colours and native navigation icons.
+
 ## [0.2.0] - 2026-10-23
 
 ### Added
@@ -38,7 +53,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Signed release builds and Zapstore publishing using the existing Feather signing setup.
 - Gradle wrapper, build workflow, and release documentation.
 
-[Unreleased]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/dergigi/madeira-wine-and-rum/releases/tag/v0.1.0

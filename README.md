@@ -2,7 +2,8 @@
 
 A native Android guide to Madeira Wine, agricultural rum and island drinking traditions.
 
-- Discover how the drinks are made and find a style you enjoy.
+- Browse real Madeira photography, swipe through wine/rum/poncha stories, and tap for the details.
+- Watch two curated videos on YouTube, with no autoplay or embedded tracking.
 - Explore an offline, pannable and zoomable island map with ten places, category filters, search and saved stops.
 - Plan a week around cellars, distilleries and vineyard visits.
 - Compare bottle suggestions by taste, with links to sources, visit information and Google Maps.
@@ -65,7 +66,7 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.2.0 bundles an independent guide reviewed on 23 October 2026. It requests
+Version 0.3.0 bundles an independent guide reviewed on 23 October 2026. It requests
 no permissions, includes no analytics or third-party runtime libraries, and does
 not access the network. Saved places remain in local app preferences. External
 maps, booking and source links open in Maps or a browser.
@@ -82,6 +83,13 @@ for a device UI check; no emulator or device run was performed.
 
 See [Content maintenance](docs/CONTENT.md) for sources, map attribution and data
 editing guidance. Guide content is in `app/src/main/assets/guide.json`.
+
+Photo and video metadata lives in `app/src/main/assets/media.json`; WebP images
+are bundled under `app/src/main/assets/photos/` and decoded off the UI thread.
+See [Photography credits](docs/MEDIA.md) for individual Creative Commons licenses,
+authors and original source links. These image licenses are separate from the
+code’s MIT license. Credits are also accessible from every photo and the About
+screen. Videos open externally only after a tap.
 
 The launcher vector is `ic_island.xml`; `artwork/icon.svg` is the editable store-icon
 source. Export it with Inkscape to regenerate `zapstore-icon.png`.

@@ -37,3 +37,10 @@ numbered list mirrors every filtered pin, and overlapping pins offer a chooser.
 The map, filters, content and saved places work without network access. Google
 Maps, booking pages and source links open in an external application. The app
 itself requests neither internet nor location permission.
+
+## Visual browsing
+
+Since 0.3.0, the main tabs present imagery and short captions. Full articles remain
+in `guide.json` and are shown through story dialogs and expandable sections;
+place tips, source links and itinerary transport notes are retained in details.
+`media.json` holds photograph credits and curated video URLs. See [Media](MEDIA.md).
