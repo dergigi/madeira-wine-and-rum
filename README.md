@@ -2,6 +2,8 @@
 
 A native Android guide to Madeira Wine, agricultural rum and island drinking traditions.
 
+- Switch between English and German with the top-right flag; the choice stays on this device.
+- Open full detail screens with Back navigation, including places, tasting notes and articles.
 - Browse real Madeira photography, swipe through wine/rum/poncha stories, and tap for the details.
 - Browse red, white and rosé still wines, including a dedicated rosé page. Fortified Madeira Wine retains its own style filters.
 - Watch two curated videos on YouTube, with no autoplay or embedded tracking.
@@ -67,9 +69,9 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.4.0 bundles an independent guide reviewed on 23 October 2026. It requests
+Version 0.5.0 bundles an independent guide reviewed on 23 October 2026. It requests
 no permissions, includes no analytics or third-party runtime libraries, and does
-not access the network. Saved places remain in local app preferences. External
+not access the network. Saved places and the language choice remain in local app preferences. External
 maps, booking and source links open in Maps or a browser.
 
 The native map shows a public-domain Natural Earth coastline and approximate
@@ -83,14 +85,14 @@ for a device UI check; no emulator or device run was performed.
 ## Content and artwork
 
 See [Content maintenance](docs/CONTENT.md) for sources, map attribution and data
-editing guidance. Guide content is in `app/src/main/assets/guide.json`.
+editing guidance. Guide content is in `app/src/main/assets/guide.json` and `guide-de.json`.
 
 Photo and video metadata lives in `app/src/main/assets/media.json`; WebP images
 are bundled under `app/src/main/assets/photos/` and decoded off the UI thread.
 See [Photography credits](docs/MEDIA.md) for individual Creative Commons licenses,
 authors and original source links. These image licenses are separate from the
-code’s MIT license. Credits are also accessible from every photo and the About
-screen. Videos open externally only after a tap.
+code’s MIT license. Credits are accessible below detail-page photographs and from Photography &
+sources on every main tab. Videos open externally only after a tap.
 
 The launcher vector is `ic_island.xml`; `artwork/icon.svg` is the editable store-icon
 source. Export it with Inkscape to regenerate `zapstore-icon.png`.

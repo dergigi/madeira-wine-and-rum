@@ -41,7 +41,7 @@ itself requests neither internet nor location permission.
 ## Visual browsing
 
 Since 0.3.0, the main tabs present imagery and short captions. Full articles remain
-in `guide.json` and are shown through story dialogs and expandable sections;
+in `guide.json` and `guide-de.json` and are shown on dedicated screens;
 place tips, source links and itinerary transport notes are retained in details.
 `media.json` holds photograph credits and curated video URLs. See [Media](MEDIA.md).
 
@@ -54,3 +54,22 @@ Verdelho to the white table-wine family simply because the grape is white.
 Atlantis product details use the Madeira Wine Company producer page. Stock and
 tasting availability remain requests to confirm, not promises. Colour photographs
 are illustrative and are labelled as such in their credits.
+
+## Languages and navigation
+
+English and German ship offline. Keep `guide.json` / `guide-de.json`,
+`media.json` / `media-de.json` and `ui-en.json` / `ui-de.json` in sync.
+The UI dictionaries use the English phrase as a stable key. The `tr` helper
+localizes visible UI copy; content comes from the selected language's dataset.
+Do not translate IDs, JSON keys, `type`, `style`, `family`, wine-colour `name`,
+URLs, file paths, coordinates, or place references. Keep array order identical:
+day and bottle routes use indices. Original photograph titles, creator names,
+licenses, venue names and street addresses remain as attributed.
+
+The first launch follows the device language (German or English fallback).
+The header flag switches immediately and stores the choice locally. Screen
+history, filters, saved places and scroll offsets survive language changes;
+screen history and offsets are also saved across activity recreation.
+Detail screens use a Back button and Android Back. Related articles open their
+own pages; there are no modal dialogs or expanding text sections.
+External webpages and videos retain their original languages.
