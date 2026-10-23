@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Three additional Madeiran rosés: Barbusano, Ilha and Rosé dos Villões.
 - Six wines from elsewhere listed at William Restaurant, with origins, venue wine-list links and availability guidance.
 
+### Changed
+
+- Adopt the selected Liquid Ribbon wine-and-rum artwork for the adaptive launcher, Android 12+ splash and Zapstore icon.
+
 ### Fixed
 
 - Link bottle enquiries to the appropriate producer, distributor or restaurant instead of routing every still wine to Blandy’s.

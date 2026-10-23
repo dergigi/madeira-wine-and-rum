@@ -82,7 +82,7 @@ The app follows Android's system night mode without a separate preference.
 Android recreates the activity on a theme change, using the existing saved-state
 handling for the current page, filters and scroll position. Photographs and map
 pin fills keep their original colours; category text has separate theme colours.
-The Android 12+ splash uses `ic_splash.xml`; launcher artwork stays unchanged.
+The Android 12+ splash uses the adaptive launcher icon on a system-themed background.
 
 ## Origin and local availability
 

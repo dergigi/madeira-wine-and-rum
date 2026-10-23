@@ -95,5 +95,10 @@ authors and original source links. These image licenses are separate from the
 code’s MIT license. Credits are accessible below detail-page photographs and from Photography &
 sources on every main tab. Videos open externally only after a tap.
 
-The launcher vector is `ic_island.xml`; `artwork/icon.svg` is the editable store-icon
-source. Export it with Inkscape to regenerate `zapstore-icon.png`.
+The selected icon is **04 — Liquid Ribbon**. Its source is
+`artwork/icon-concepts/v1/04-liquid-ribbon.png`; the other concepts and prompts
+are retained beside it. The adaptive launcher uses `ic_liquid_ribbon.xml` with
+inset artwork for launcher masks, and the Android 12+ splash uses that same icon.
+`drawable-nodpi/liquid_ribbon.png` is a 768px export; `zapstore-icon.png` is 512px.
+Both exports preserve the selected artwork. The old `artwork/icon.svg` is an
+archived design, not the current store-icon source.

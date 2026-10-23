@@ -1,4 +1,5 @@
 <resources>
+    <color name="icon_background">#FDF7E1</color>
     <!-- Launcher artwork retains its original background in both modes. -->
     <color name="cream">#F8F6EF</color>
     <color name="page">#F8F6EF</color>
