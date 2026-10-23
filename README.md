@@ -1,10 +1,15 @@
 # Madeira Wine and Rum
 
-A native Android app for exploring Madeira's wine and rum. Version 0.1.1 is a splash-screen-only foundation; discovery features will follow.
+A native Android guide to Madeira Wine, agricultural rum and island drinking traditions.
+
+- Discover how the drinks are made and find a style you enjoy.
+- Explore an offline, pannable and zoomable island map with ten places, category filters, search and saved stops.
+- Plan a week around cellars, distilleries and vineyard visits.
+- Compare bottle suggestions by taste, with links to sources, visit information and Google Maps.
 
 ## Development
 
-Use conventional commits, semantic versioning, and Keep a Changelog. No tests or emulator are required for this initial release.
+Use conventional commits, semantic versioning, and Keep a Changelog. No tests or emulator runs are required for this project. Verify release compilation and signing.
 
 ## Build
 
@@ -60,13 +65,23 @@ are built locally so the existing signing credentials stay on this machine.
 
 ## Scope and privacy
 
-Version 0.1.1 remains on the welcome screen. It requests no permissions, includes
-no analytics or third-party runtime libraries, and does not access the network.
-Android 8.0 (API 26) or later is required. No tests or emulator runs are included
-in this initial setup; release verification covers compilation and APK signing.
+Version 0.2.0 bundles an independent guide reviewed on 23 October 2026. It requests
+no permissions, includes no analytics or third-party runtime libraries, and does
+not access the network. Saved places remain in local app preferences. External
+maps, booking and source links open in Maps or a browser.
 
-## Artwork
+The native map shows a public-domain Natural Earth coastline and approximate
+venue locations. It is an island overview; use Google Maps for road navigation.
+Hours, stock and bookings should be checked with each venue. Bottle picks and the
+seven-day plan are editorial recommendations, not rankings or reservations.
 
-The welcome illustration is original native Canvas artwork in `MainActivity.java`.
+Android 8.0 (API 26) or later is required. Build verification does not substitute
+for a device UI check; no emulator or device run was performed.
+
+## Content and artwork
+
+See [Content maintenance](docs/CONTENT.md) for sources, map attribution and data
+editing guidance. Guide content is in `app/src/main/assets/guide.json`.
+
 The launcher vector is `ic_island.xml`; `artwork/icon.svg` is the editable store-icon
 source. Export it with Inkscape to regenerate `zapstore-icon.png`.

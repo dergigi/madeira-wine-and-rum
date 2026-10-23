@@ -2,12 +2,18 @@ repository: https://github.com/dergigi/madeira-wine-and-rum
 pubkey: npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc
 release_notes: ./CHANGELOG.md
 name: Madeira Wine and Rum
-summary: An island. A taste. A story.
+summary: Explore Madeira Wine, rum and the island’s tasting stops.
 description: |
-  A home for exploring Madeira's wine and rum.
+  Discover what makes Madeira Wine and agricultural rum special, then plan
+  your own island tasting trip.
 
-  This first release is a simple illustrated welcome screen. Wine and rum
-  discovery features are not yet available.
+  Explore ten places on an offline interactive map, save your favourites,
+  follow a suggested seven-day itinerary and find bottles by taste.
+  Each stop includes tasting tips, visit information and Google Maps links.
+  Articles and recommendations include sources reviewed on 23 October 2026.
+
+  The island map works offline; external navigation and booking links may
+  need a connection. No account, analytics or location permission required.
 license: MIT
 icon: ./zapstore-icon.png
 tags:

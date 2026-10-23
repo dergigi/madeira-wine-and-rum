@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-23
+
+### Added
+
+- Native Discover, Map, One week and Bottles sections, replacing the placeholder welcome screen.
+- Madeira Wine and agricultural rum explainers, traditional drink tips and source links.
+- Offline island map with pan, zoom, ten numbered places, overlapping-pin selection and an accessible place list.
+- Place search, wine/rum/local filters and saved places stored on the device.
+- Tasting suggestions, booking information and Google Maps links for each destination.
+- Seven-day itinerary grouped by area, plus wine and rum picks by taste.
+- Content review dates, source documentation and public-domain map attribution.
+
 ## [0.1.1] - 2026-10-22
 
 ### Fixed
@@ -26,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Signed release builds and Zapstore publishing using the existing Feather signing setup.
 - Gradle wrapper, build workflow, and release documentation.
 
-[Unreleased]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/dergigi/madeira-wine-and-rum/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/dergigi/madeira-wine-and-rum/releases/tag/v0.1.0
